@@ -1,103 +1,114 @@
 ---
 layout: default
+disqus: false
+archive: false
+post_class: post-template
 ---
 
-{% include subpage-header.html %} 
+<!-- Begin Article
+================================================== -->
 
-<!-- POST HTML -->
-<article id="post">
-    <div class="container">
+    <div class="row">
 
-        <div class="row">
+    <!-- Sidebar -->
+    <div class="col-sm-4">
+    {% include sidebar.html %}
+    </div>	
 
-            <!-- Blog Post Content Column -->
-            <div class="col-lg-8">
+		<!-- Post -->        
+        {% assign author = site.authors[page.author] %}
+        
+		<div class="col-sm-8">
+			<div class="mainheading">              
+                
+                <!-- Post Categories -->
+                <div class="after-post-tags">
+                    <ul class="tags">
+                        {% assign sortedCategories = page.categories | sort %}
+                        {% for category in sortedCategories %}
+                        <li>
+                         <a href="{{ site.baseurl }}/category/{{ category | slugify }}/">{{ category }}</a>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                <!-- End Categories -->
+                
+                <!-- Post Title -->
+				<h1 class="posttitle">{{ page.title }}</h1> 
+                
+			</div>
 
-                <!-- Blog Post -->
+			<!-- Post Featured Image -->
+			{% if page.image %}<img class="featured-image img-fluid" src="{{ site.baseurl }}/{{ page.image }}" alt="{{ page.title }}">{% endif %}
+			<!-- End Featured Image -->
 
-                <!-- Title -->
-                <h1>{{ page.title }}</h1>
+			<!-- Post Content -->
+			<div class="article-post">
+				{{content}}
+                <div class="clearfix"></div>
+			</div>
 
-                <!-- Author -->
-                <p class="lead">
-                    by {{ page.author }}
+            <!-- Post Date -->
+            <p>
+                <small>
+                    <span class="post-date"><time class="post-date" datetime="{{ page.date | date:"%Y-%m-%d" }}">{{ page.date | date_to_string }}</time></span>           
+                    {% if page.last_modified_at %}
+                    (Updated: <time datetime="{{ page.last_modified_at | date_to_xmlschema }}" itemprop="dateModified">{{ page.last_modified_at | date: "%b %-d, %Y" }}</time>)
+                    {% endif %}
+                    </small>
                 </p>
-
-                <hr>
-
-                <!-- Date/Time -->
-                <p><span class="glyphicon glyphicon-time"></span> Posted on {{ page.date | date: "%B %d, %Y"}}</p>
-
-                <hr>
-                
-                   <!-- Preview Image -->
-                   {% if page.image %}
-                   <img class="img-responsive" src="{{ page.image }}" alt="{{ page.image }}">
-                   {% endif %}
-                
-
-                <hr>
-
-                <!-- Post Content -->
-                {% if page.lead %}
-                <p class="lead">{{ page.lead }}</p>
-                {% endif %}
-                
-                {{ page.content }}
-
-
-                <hr>
-                {% if site.comments %}
-                {% include comments.html %}
-                {% endif %}
-                
-                 {% if page.previous %}
-                  <span class="previous-link">
-                    <a rel="prev" href="{{ page.previous.url }}">Previous article</a>
-                  </span>
-                 {% endif %}
-                 
-                 {% if page.next %}
-                  <span class="next-link pull-right">
-                    <a rel="next" href="{{ page.next.url }}">Next article</a>
-                  </span>
-                 {% endif %}
-               
-                <hr>
-            </div>
-
-            <!-- Blog Sidebar Widgets Column -->
-            <div class="col-md-4">
-
-                <!-- Blog Categories Well -->
-                <div class="well">
-                   {% for category_name in page.categories limit:1 %}
-                    <h4>{{ category_name | capitalize }}</h4>
-                   
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <ul class="list-unstyled">
-                               {% for post in site.categories[category_name] limit:5 %}
-                                <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-                                {% endfor %}
-                            </ul>
-                        </div>
-                    </div>
-                    {% endfor %}
-
-                    <!-- /.row -->
+            
+			
+            
+            <!-- Prev/Next -->
+            <div class="row PageNavigation mt-4 prevnextlinks">
+              {% if page.previous.url %}
+                <div class="col-md-6 rightborder pl-0">
+                    <a class="thepostlink" href="{{page.previous.url | absolute_url}}">&laquo; {{page.previous.title}}</a>
                 </div>
-
-                <!-- Side Widget Well -->
-                <div class="well">
-                    {% include contact-info.html %}
+              {% endif %}
+              {% if page.next.url %}
+                <div class="col-md-6 text-right pr-0">
+                    <a class="thepostlink" href="{{page.next.url | absolute_url}}">{{page.next.title}} &raquo;</a>
                 </div>
-
+              {% endif %}
             </div>
+            <!-- End Prev/Next -->
+            
+            
+             <!-- Author Box -->
+                {% if page.author %}				
+				<div class="row post-top-meta">
+					<div class="col-md-2">
+						<img class="author-thumb" src="https://www.gravatar.com/avatar/{{ author.gravatar }}?s=250&d=mm&r=x" alt="{{ author.display_name }}">
+					</div>
+					<div class="col-md-10">
+						<a target="_blank" class="link-dark" href="{{ author.web }}">{{ author.display_name }}</a><a target="_blank" href="{{ author.twitter }}" class="btn follow">Follow</a>
+						<span class="author-description">{{ author.description }}</span>						
+					</div>
+				</div>				
+                {% endif %}
+            
+            
+            <!--Begin Comments
+            ================================================== -->
+            <section>
+            <div id="comments">                          
+                {% include disqus.html %} 
+            </div>
+            </section>
+            <!--End Comments
+            ================================================== -->
+            
+            
 
         </div>
-        <!-- /.row -->
-    </div>
-</article>
+        
+		<!-- End Post -->
+        
 
-   
+	</div>
+
+<!-- End Article
+================================================== -->

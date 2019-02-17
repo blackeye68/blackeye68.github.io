@@ -1,30 +1,63 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
+# Site
+name: My Blog With Jekyll
+description: Share knowlege about - programme language, health, books, travel, Vietnam history...
+meta_description: "Jekyll theme for blogging."
+logo: 'assets/images/logo.png'
+favicon: 'assets/images/favicon.ico'
+paginate: 12
+baseurl: 
+email: 'ducna.tuy.tam.so.duc@gmail.com'
+google_analytics: ''
+disqus: 'demowebsite'
+sharethis: '<script type="text/javascript" src="//platform-api.sharethis.com/js/sharethis.js#property=5a6b2fe4fb197a0011c589f6&product=sticky-share-buttons"></script>'
 
-# Site settings
-title: Great web agency
-email: youremail@somewhere
-description: "Great web agency offers high impact yet affordable web development services. From web design to targeted SEO to custom web applications."
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+# Authors
+authors:
+  blackeye68:
+    name: DucNA
+    display_name: blackeye68
+    base_theme: free Affiliates Theme on Jekyllthemes.io
+    gravatar: e56154546cf4be74e393c62d1ae9f9d4
+    email: ducna.tuy.tam.so.duc@gmail.com
+    web: https://www.sharetobetter.org/
+    twitter: https://twitter.com/blackeye681
+    description: "A my blog about share knowledge. My Blog build on base-theme Affiliates of Wowthemesnet Author"
 
-# Build settings
-markdown: kramdown
+# Plugins
+plugins: 
+  - jekyll-paginate  # plugin phân trang
+  - jekyll-relative-links # plugin tạo link trực tiếp trên github pages
+  #- jekyll-archives # plugin archive nhưng ko hoạt động tốt trên github pages
+    
 
-permalink: none
-comments: true 
+# Relative-links plugin
+plugins:
+  - jekyll-redirect-from
+  
+# Category
+collections:
+  category:
+    output: true
+
 defaults:
   -
     scope:
-      path: "" # an empty string here means all files in the project
-      type: "posts" # previously `post` in Jekyll 2.2.
+      path: ""
+      type: category
     values:
-      layout: "post"
-      author: "Your name"
-      category: "jekyll"
+      layout: "category"
+
+# Archives
+# jekyll-archives:
+#   enabled:
+#     - categories
+#   layout: archive
+#   permalinks:
+#     category: '/category/:name/'
+    
+# Other
+markdown: kramdown
+highlighter: rouge
+
+
+
