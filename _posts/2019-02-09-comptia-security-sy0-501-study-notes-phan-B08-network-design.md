@@ -3,7 +3,7 @@ layout: post
 title:  "CompTIA Security+ SY0-501 Study Notes - Phần B08: Network Design"
 author: blackeye
 categories: [ exam, network security, comptia, study notes ]
-image: assets/images/10.jpg
+image: assets/images/9.jpg
 ---
 
 # Network Design

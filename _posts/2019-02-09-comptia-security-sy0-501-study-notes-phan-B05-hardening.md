@@ -3,7 +3,7 @@ layout: post
 title:  "CompTIA Security+ SY0-501 Study Notes - Phần B04: Hardening"
 author: blackeye
 categories: [ exam, network security, comptia, study notes ]
-image: assets/images/10.jpg
+image: assets/images/11.jpg
 ---
 # Hardening
 * **Hardening**

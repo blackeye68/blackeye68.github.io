@@ -3,7 +3,7 @@ layout: post
 title:  "CompTIA Security+ SY0-501 Study Notes - Phần B11: Network Attacks"
 author: blackeye
 categories: [ exam network, security, comptia, experience ]
-image: assets/images/10.jpg
+image: assets/images/8.jpg
 ---
 
 Network Attacks

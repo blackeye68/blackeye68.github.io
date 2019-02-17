@@ -3,7 +3,7 @@ layout: post
 title:  "CompTIA Security+ SY0-501 Study Notes - Phần B22: Planning for the Worst"
 author: blackeye
 categories: [ exam network, security, comptia, experience ]
-image: assets/images/10.jpg
+image: assets/images/6.jpg
 ---
 
 # Planning for the Worst
