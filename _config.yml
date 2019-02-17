@@ -10,7 +10,7 @@ title: Great web agency
 email: youremail@somewhere
 description: "Great web agency offers high impact yet affordable web development services. From web design to targeted SEO to custom web applications."
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://blackeye68.github.io/project/" # the base hostname & protocol for your site
+url: "" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll
 
