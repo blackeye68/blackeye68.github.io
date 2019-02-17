@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Lập trình viên nên có blog cá nhân - Phần 4"
+title:  "Lập trình viên nên có blog cá nhân - Phần 5"
 categories: [ programmer, experience ]
-image: assets/images/4.jpg
+image: assets/images/5.jpg
 featured: true
 ---
 
