@@ -9,12 +9,6 @@ post_class: post-template
 ================================================== -->
 
     <div class="row">
-
-    <!-- Sidebar -->
-    <div class="col-sm-4">
-    {% include sidebar.html %}
-    </div>	
-
 		<!-- Post -->        
         {% assign author = site.authors[page.author] %}
         
@@ -100,13 +94,13 @@ post_class: post-template
             </section>
             <!--End Comments
             ================================================== -->
-            
-            
-
         </div>
         
 		<!-- End Post -->
-        
+            <!-- Sidebar -->
+    <div class="col-sm-4">
+        {% include sidebar.html %}
+    </div>	
 
 	</div>
 
