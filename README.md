@@ -61,3 +61,8 @@
 - thêm một số bài post và bổ sung, hoàn thiện các bài post
 - customer domain với cloudflare and github pages
 
+### 17/03/2019
+- Chỉnh lại sitebar của trang home và post sang bên phải và xuống dưới để lúc xem ở chế độ di động không bị chèn giữa các phần.
+- Cài lại cả trang web
+- đăng ký và cài đặt thay thế mã analytic vào web thay thế mã cũ
+
