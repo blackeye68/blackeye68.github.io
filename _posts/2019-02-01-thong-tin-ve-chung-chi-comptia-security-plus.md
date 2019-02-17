@@ -5,9 +5,11 @@ author: blackeye
 categories: [ network-security, comptia, security-plus ]
 image: assets/images/9.jpg
 ---
+
 CompTIA Security + là chứng nhận toàn cầu xác nhận các kỹ năng cơ bản bạn cần để thực hiện các chức năng bảo mật cốt lõi và theo đuổi sự nghiệp bảo mật CNTT.
 
-### Về kỳ thi
+### **Về kỳ thi**
+
 CompTIA Security + là chứng nhận bảo mật đầu tiên mà các chuyên gia CNTT nên kiếm được. Nó thiết lập kiến thức cốt lõi cần thiết cho bất kỳ vai trò an ninh mạng nào và cung cấp một bàn đạp cho các công việc an ninh mạng cấp trung gian. Bảo mật + kết hợp các thực tiễn tốt nhất trong xử lý sự cố thực tế để đảm bảo các chuyên gia bảo mật có các kỹ năng giải quyết vấn đề bảo mật thực tế. Các chuyên gia an ninh mạng với Security + biết cách giải quyết các sự cố bảo mật - không chỉ xác định chúng.
 
 Security + tuân thủ các tiêu chuẩn ISO 17024 và được DoD Hoa Kỳ chấp thuận để đáp ứng các yêu cầu chỉ thị 8140 / 8570.01-M.
