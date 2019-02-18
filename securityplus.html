@@ -13,13 +13,13 @@ comments: false
         <!-- Featured
         ================================================== -->
         <section class="featured-posts">
-            <div class="col-sm-8">
 
-                <div class="section-title">
-                    <h2><span>CompTIA Security+ Category</span></h2>
-                </div>
+            <div class="section-title">
+                <h2><span>CompTIA Security+ Category</span></h2>
+            </div>
 
-                <div class="row listfeaturedtag">
+            <div class="row listfeaturedtag">
+                <div class="col-sm-8">
 
                     {% for post in site.posts %}
 
@@ -33,8 +33,8 @@ comments: false
 
                 </div>
             </div>
-        </section>
-        
-        <div class="col-sm-4">
+
+            <div class="col-sm-4">
                 {% include sidebar.html %}
             </div>
+        </section>
