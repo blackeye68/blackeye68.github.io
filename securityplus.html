@@ -1,6 +1,6 @@
 ---
 layout: page
-title: CompTIA Security+ Posts
+title: CompTIA Security+ Post Categories
 comments: false
 ---
 
@@ -26,9 +26,9 @@ comments: false
 
                 {% for post in site.posts %}
 
-                {% if post.featured == true %}
+                {% if post.securityplus == true %}
 
-                {% include featuredbox.html %}
+                {% include securityplusbox.html %}
 
                 {% endif %}
 
@@ -58,7 +58,7 @@ comments: false
 
                     {% for post in paginator.posts %}
 
-                    {% unless post.featured == true %}
+                    {% unless post.securityplus == true %}
 
                     {% include postbox.html %}
 
