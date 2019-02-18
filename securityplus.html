@@ -13,23 +13,29 @@ comments: false
         <!-- Featured
         ================================================== -->
         <section class="featured-posts">
+            <div class="col-sm-8">
 
-            <div class="section-title">
-                <h2><span>Featured</span></h2>
+                <div class="section-title">
+                    <h2><span>Featured</span></h2>
+                </div>
+
+                <div class="row listfeaturedtag">
+
+                    {% for post in site.posts %}
+
+                    {% if post.securityplus == true %}
+
+                    {% include securityplusbox.html %}
+
+                    {% endif %}
+
+                    {% endfor %}
+
+                </div>
             </div>
 
-            <div class="row listfeaturedtag">
-
-                {% for post in site.posts %}
-
-                {% if post.featured == true %}
-
-                {% include featuredbox.html %}
-
-                {% endif %}
-
-                {% endfor %}
-
+            <div class="col-sm-4">
+                {% include sidebar.html %}
             </div>
 
         </section>
