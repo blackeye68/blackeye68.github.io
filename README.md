@@ -66,4 +66,8 @@
 - Cài lại cả trang web
 - đăng ký và cài đặt thay thế mã analytic vào web thay thế mã cũ.
 - Thay đổi background ở trang home (chỉnh sửa link ở theme.css.
+### 18/02/2019
+- Thêm ảnh đại diện và tên tác giả đến bài Post với Gravitar
+- Thay trang About.md bằng about.html để hiển thị
+- Thêm menu Blog với thư mục: CompTIA Security+ 
 
