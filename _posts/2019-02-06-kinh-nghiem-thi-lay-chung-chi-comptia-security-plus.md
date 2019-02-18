@@ -5,6 +5,7 @@ author: blackeye
 categories: [ exam network, security, comptia, experience ]
 image: assets/images/10.jpg
 ---
+
 (nguồn tham khảo: [Kinh nghiệm thi lấy chứng chỉ CompTIA Security+](http://iot2vn.com/kinh-nghiem-thi-lay-chung-chi-comptia-security/))
 
 Từ khi bắt đầu học công nghệ thông tin mình đã có hứng thú với lĩnh vực an toàn mạng và bảo mật. Xem phim nhìn các hacker rất cool. Tuy nhiên khi còn ngồi ở trên ghế nhà trường thì do không có điều kiện tiếp xúc (chắc do lười) nên cũng chưa tìm hiểu kỹ. Gần đây mình mới quyết định thử tìm hiểu xem thế nào. Khi tìm hiểu một lĩnh vực mới mình sẽ tìm một chứng chỉ quốc tế trong lĩnh vực đó để học. Như thế sẽ vừa có kiến thức cơ bản, học xong lại có chứng chỉ trong tay để làm đẹp CV nữa[^1]. Lần này mình chọn CompTIA Security+.

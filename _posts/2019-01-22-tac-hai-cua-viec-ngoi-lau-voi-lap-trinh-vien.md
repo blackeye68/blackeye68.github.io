@@ -5,6 +5,7 @@ author: blackeye
 categories: [ programmer, experience ]
 image: assets/images/7.jpg
 ---
+
 ### Nguyên nhân của việc ngồi lâu
 
 Việc này đến từ bản chất công việc. Công việc của lập trình viên luôn gắn liền với máy vi tính. Và quan trọng hơn hết là: khi làm việc, lập trình viên luôn rất tập trung và mong muốn giải quyết công việc của mình trước khi đứng dậy làm việc khác. Việc nghỉ giữa chừng có thể làm bạn xao nhãng, quên đi công việc đang làm. Nhưng khi ngồi lâu như vậy thì tác hại đến với chúng ta là rất lớn.

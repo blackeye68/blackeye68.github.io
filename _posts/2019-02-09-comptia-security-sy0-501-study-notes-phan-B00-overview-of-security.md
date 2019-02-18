@@ -6,9 +6,11 @@ categories: [ exam, network security, comptia, study notes ]
 image: assets/images/10.jpg
 featured: true
 ---
+
 # Overview of Security - Tổng quan về bảo mật
 * **Welcome**
     * **Domains (SYO-501)**
+    
         * Threats, Attacks, and Vulnerabilities (21%)
         * Technologies and Tools (22%)
         * Architecture and Design (15%)

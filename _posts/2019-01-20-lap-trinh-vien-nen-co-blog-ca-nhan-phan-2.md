@@ -4,7 +4,6 @@ title:  "Lập trình viên nên có blog cá nhân - Phần 2"
 author: blackeye
 categories: [ programmer, experience, part-02 ]
 image: assets/images/8.jpg
-featured: false
 ---
 
 Every developer should have a blog. Here’s why, and how to stick with it.
