@@ -3,7 +3,8 @@ layout: post
 title:  "CompTIA Security+ SY0-501 - Phần B25: Conclusion"
 author: blackeye
 categories: [ exam network, security, comptia, experience, conclusion ]
-image: assets/images/10.jpg
+image: assets/images/4.jpg
+featured: true
 ---
 # Conclusion - Phần kết luận
 * **Conclusion**

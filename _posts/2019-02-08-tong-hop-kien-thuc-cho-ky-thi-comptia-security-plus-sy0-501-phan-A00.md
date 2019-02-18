@@ -4,6 +4,7 @@ title:  "Tổng hợp kiến thức của kỳ thi CompTIA Security+ SY0-501 - P
 author: blackeye
 categories: [ exam network, security, comptia, experience ]
 image: assets/images/10.jpg
+featured: true
 ---
 # Certification Exam
 ## Objectives: SY0-501
