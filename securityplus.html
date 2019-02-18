@@ -58,7 +58,7 @@ comments: false
 
                     {% for post in paginator.posts %}
 
-                    {% unless post.securityplus == true %}
+                    {% unless post.featured == true %}
 
                     {% include postbox.html %}
 
