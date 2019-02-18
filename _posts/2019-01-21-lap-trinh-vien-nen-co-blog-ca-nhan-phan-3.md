@@ -1,7 +1,8 @@
 ---
 layout: post
 title:  "Lập trình viên nên có blog cá nhân - Phần 3"
-categories: [ programmer, experience ]
+author: blackeye
+categories: [ programmer, experience, part-03 ]
 image: assets/images/3.jpg
 featured: true
 ---

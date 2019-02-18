@@ -8,7 +8,7 @@ image: assets/images/10.jpg
 
 # Risk Assessments
 • Risk Assessments
-o Risk Assessments
+    o Risk Assessments
 ▪ A process used inside of risk management to identify how much risk
 exists in a given network or system
 o Risk

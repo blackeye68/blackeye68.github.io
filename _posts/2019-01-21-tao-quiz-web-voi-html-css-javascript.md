@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Tạo quiz web đơn giản với javascript"
+author: blackeye
 categories: [ program, javascript core ]
 image: assets/images/4.jpg
 featured: true

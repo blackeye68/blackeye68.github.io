@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Top 50 câu hỏi phỏng vấn về ASP.NET MVC cùng câu trả lời"
-author: john
+author: blackeye
 categories: [ interview, questions, dotnet_mvc ]
 image: assets/images/6.jpg
 ---

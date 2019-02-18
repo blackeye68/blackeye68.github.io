@@ -22,8 +22,7 @@ image: assets/images/10.jpg
     * Policies may be regulatory, advisory, or informative
     * Standards are used to implement a policy in an organization
     * Baseline
-        * Created as reference points which are documented for use as a method
-        of comparison during an analysis conducted in the future
+        * Created as reference points which are documented for use as a method of comparison during an analysis conducted in the future
     * Guidelines are used to recommend actions
     * Procedures
         * Detailed step-by-step instructions that are created to ensure personnel

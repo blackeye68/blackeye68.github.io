@@ -6,37 +6,39 @@ categories: [ exam network, security, comptia, experience ]
 image: assets/images/8.jpg
 ---
 
-Network Attacks
+# Network Attacks
 • Network Attacks
-o Denial of Service
-o Spoofing
-o Hijacking
-o Replay
-o Transitive Attacks
-o DNS attacks
-o ARP Poisoning
-o Ports and protocols will be tested on the Security+ exam
+    o Denial of Service
+    o Spoofing
+    o Hijacking
+    o Replay
+    o Transitive Attacks
+    o DNS attacks
+    o ARP Poisoning
+    o Ports and protocols will be tested on the Security+ exam
+
 • Ports and Protocols
-o Port
-▪ A logical communication endpoint that exists on a computer or server
-o Inbound Port
-▪ A logical communication opening on a server that is listening for a
-connection from a client
-o Outbound Port
-▪ A logical communication opening created on a client in order to call out
-to a server that is listening for a connection
-o Ports can be any number between 0 and 65,535
-o Well-Known Ports
-▪ Ports 0 to 1023 are considered well-known and are assigned by the
-Internet Assigned Numbers Authority (IANA)
-o Registered Ports
-▪ Ports 1024 to 49,151 are considered registered and are usually assigned
-to proprietary protocols
-o Dynamic or Private Ports
-▪ Ports 49,152 to 65,535 can be used by any application without being
-registered with IANA
+    o Port
+        ▪ A logical communication endpoint that exists on a computer or server
+        o Inbound Port
+        ▪ A logical communication opening on a server that is listening for a
+        connection from a client
+    o Outbound Port
+        ▪ A logical communication opening created on a client in order to call out
+        to a server that is listening for a connection
+    o Ports can be any number between 0 and 65,535
+    o Well-Known Ports
+        ▪ Ports 0 to 1023 are considered well-known and are assigned by the
+        Internet Assigned Numbers Authority (IANA)
+    o Registered Ports
+        ▪ Ports 1024 to 49,151 are considered registered and are usually assigned
+        to proprietary protocols
+    o Dynamic or Private Ports
+        ▪ Ports 49,152 to 65,535 can be used by any application without being
+        registered with IANA
+
 • Memorization of Ports
-o 65,536 ports are available for use
+    o 65,536 ports are available for use
 21 TCP FTP File Transfer Protocol is used to transfer files from host to host
 22 TCP/UDP SSH, SCP, SFTP Secure Shell is used to remotely administer network devices and systems. SCP is used for
 secure copy and SFTP for secure FTP.
@@ -107,18 +109,20 @@ Graphical User Interface
 TLS
 It is used to conduct computer message logging, especially for routers and firewall logs, over
 a TLS-encrypted connection
+
 • Unnecessary Ports
-o 65,536 ports available
-o 35 ports to memorize
-o Unnecessary Port
-▪ Any port that is associated with a service or function that is non-essential
-to the operation of your computer or network
-o Any open port represents a possible vulnerability that might be exposed
-o Inbound Port
-▪ A logical communication opening on a server that is listening for a
-connection from a client
-o C:\ net stop service
-o # sudo stop service
+    o 65,536 ports available
+    o 35 ports to memorize
+    o Unnecessary Port
+        ▪ Any port that is associated with a service or function that is non-essential
+        to the operation of your computer or network
+    o Any open port represents a possible vulnerability that might be exposed
+    o Inbound Port
+        ▪ A logical communication opening on a server that is listening for a
+        connection from a client
+    o C:\ net stop service
+    o # sudo stop service
+    
 • Denial of Service
 o Denial of Service (DoS)
 ▪ Term used to describe many different types of attacks which attempt to

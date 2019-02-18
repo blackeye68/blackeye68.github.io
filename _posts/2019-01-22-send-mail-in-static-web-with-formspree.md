@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Gửi Email bằng HTML và Formspree.io"
-author: john
+author: blackeye
 categories: [ jekyll, tutorials, form, sent mail ]
 image: assets/images/6.jpg
 ---

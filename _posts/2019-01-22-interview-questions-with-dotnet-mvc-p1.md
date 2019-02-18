@@ -1,7 +1,8 @@
 ---
 layout: post
 title:  "Interview Questions With .Net MVC - Part 01"
-categories: [ programmer, experience ]
+author: blackeye
+categories: [ interview, questions, .Net MVC ]
 image: assets/images/2.jpg
-featured: true
+featured: false
 ---

@@ -6,7 +6,7 @@ categories: [ exam network, security, comptia, experience ]
 image: assets/images/10.jpg
 ---
 
-Authentication
+# Authentication
 • Authentication
 o Multi-factor Authentication
 ▪ Use of two or more authentication factors to prove a user’s identity
