@@ -17,19 +17,19 @@ comments: false
         {% endif %}
         {% endif %}
 
-        <section class="featured-posts">
+        <section class="securityplus-posts">
 
             <div class="col-sm-8">
 
                 <div class="section-title">
-                    <h2><span>Featured</span></h2>
+                    <h2><span>All Stories</span></h2>
                 </div>
 
-                <div class="row listfeaturedtag">
+                <div class="row listsecurityplustag">
 
                     {% for post in site.posts %}
 
-                    {% if post.featured == true %}
+                    {% if post.securityplus == true %}
 
                     {% include scurityplusbox.html %}
 

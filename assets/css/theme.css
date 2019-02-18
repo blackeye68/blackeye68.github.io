@@ -52,6 +52,11 @@ section {
 section.featured-posts {
     margin-bottom:30px;
 }
+
+section.securityplus-posts {
+    margin-bottom:30px;
+}
+
 section.recent-posts {
     margin-bottom:0;
 }
