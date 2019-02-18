@@ -1,21 +1,13 @@
 ---
 layout: page
-title: CompTIA Security+ All Posts
+title: CompTIA Security+ Posts
 comments: false
 ---
 
-</div>
-</div>
-<!-- We've temporary closed main-content and container to have a full width intro -->
-
-<!-- We reopen main-content and container -->
-
 <div class="container">
     <div class="main-content">
-
-
         <!-- Featured
-        ================================================== -->
+            ================================================== -->
         <section class="featured-posts">
 
             <div class="section-title">
@@ -26,9 +18,9 @@ comments: false
 
                 {% for post in site.posts %}
 
-                {% if post.securityplus == true %}
+                {% if post.featured == true %}
 
-                {% include securityplusbox.html %}
+                {% include featuredbox.html %}
 
                 {% endif %}
 
@@ -39,7 +31,7 @@ comments: false
         </section>
 
         <!-- Posts Index
-        ================================================== -->
+            ================================================== -->
         {% if paginator.previous_page %}
         {% if paginator.previous_page > 0 %}
         <div id="jumptopageof"></div>
@@ -58,9 +50,9 @@ comments: false
 
                     {% for post in paginator.posts %}
 
-                    {% unless post.securityplus == false %}
+                    {% unless post.featured == true %}
 
-                    {% include securityplustbox.html %}
+                    {% include postbox.html %}
 
                     {% endunless %}
 
@@ -84,5 +76,4 @@ comments: false
             <div class="col-sm-4">
                 {% include sidebar.html %}
             </div>
-
         </section>
