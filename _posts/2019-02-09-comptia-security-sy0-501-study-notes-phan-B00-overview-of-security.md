@@ -4,7 +4,6 @@ title:  "CompTIA Security+ SY0-501 Study Notes - Phần B00:Overview of Security
 author: blackeye
 categories: [ exam, network security, comptia, study notes ]
 image: assets/images/10.jpg
-featured: true
 ---
 
 # Overview of Security - Tổng quan về bảo mật
