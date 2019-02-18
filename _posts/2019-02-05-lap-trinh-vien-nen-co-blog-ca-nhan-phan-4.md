@@ -3,7 +3,6 @@ layout: post
 title:  "Lập trình viên nên có blog cá nhân - Phần 4"
 categories: [ programmer, experience ]
 image: assets/images/4.jpg
-featured: false
 ---
 
 (nguồn: [3 Reasons why you need a programming blog](https://dbader.org/blog/3-reasons-why-you-need-a-programming-blog))

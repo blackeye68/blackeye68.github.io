@@ -4,7 +4,6 @@ title:  "Lập trình viên nên có blog cá nhân - Phần 3"
 author: blackeye
 categories: [ programmer, experience, part-03 ]
 image: assets/images/3.jpg
-featured: false
 ---
 
 Four reasons every programmer should write a blog

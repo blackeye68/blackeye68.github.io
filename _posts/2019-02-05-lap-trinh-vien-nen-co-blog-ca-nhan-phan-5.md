@@ -3,7 +3,6 @@ layout: post
 title:  "Lập trình viên nên có blog cá nhân - Phần 5"
 categories: [ programmer, experience ]
 image: assets/images/5.jpg
-featured: true
 ---
 
 Programmers Should Blog (Including You)
