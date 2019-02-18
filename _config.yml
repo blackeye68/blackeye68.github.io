@@ -4,10 +4,10 @@ description: Share knowlege about - programme language, health, books, travel, V
 meta_description: "Jekyll theme for blogging."
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
-paginate: 12
+paginate: 10
 baseurl: 
 email: 'ducna.tuy.tam.so.duc@gmail.com'
-google_analytics: ''
+google_analytics: 'UA-134688352-1'
 disqus: 'demowebsite'
 sharethis: '<script type="text/javascript" src="//platform-api.sharethis.com/js/sharethis.js#property=5a6b2fe4fb197a0011c589f6&product=sticky-share-buttons"></script>'
 
