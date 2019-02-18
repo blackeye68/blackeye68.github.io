@@ -4,6 +4,7 @@ title:  "CompTIA Security+ SY0-501 Study Notes - Phần B21: Security Protocols"
 author: blackeye
 categories: [ exam network, security, comptia, experience ]
 image: assets/images/10.jpg
+securityplus: true
 ---
 
 # Security Protocols

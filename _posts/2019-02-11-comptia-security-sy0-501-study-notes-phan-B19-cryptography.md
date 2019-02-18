@@ -4,6 +4,7 @@ title:  "CompTIA Security+ SY0-501 Study Notes - Phần B19: Cryptography"
 author: blackeye
 categories: [ exam network, security, comptia, experience ]
 image: assets/images/5.jpg
+securityplus: true
 ---
 
 # Cryptography

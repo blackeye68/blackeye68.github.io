@@ -4,6 +4,7 @@ title:  "CompTIA Security+ SY0-501 Study Notes - Phần B23: Social Engineering"
 author: blackeye
 categories: [ exam network, security, comptia, experience ]
 image: assets/images/10.jpg
+securityplus: true
 ---
 # Social Engineering
 * Social Engineering

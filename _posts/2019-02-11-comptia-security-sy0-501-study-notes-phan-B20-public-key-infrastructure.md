@@ -3,6 +3,7 @@ title:  "CompTIA Security+ SY0-501 Study Notes - Phần B20: Public Key Infrastr
 author: blackeye
 categories: [ exam network, security, comptia, experience ]
 image: assets/images/4.jpg
+securityplus: true
 ---
 
 # Public Key Infrastructure
