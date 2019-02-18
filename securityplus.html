@@ -3,61 +3,33 @@ layout: page
 title: CompTIA Security+ Posts
 comments: false
 ---
+
 <!-- We reopen main-content and container -->
 
 <div class="container">
     <div class="main-content">
 
 
-        <!-- Posts Index
+        <!-- Featured
         ================================================== -->
-        {% if paginator.previous_page %}
-        {% if paginator.previous_page > 0 %}
-        <div id="jumptopageof"></div>
-        {% endif %}
-        {% endif %}
+        <section class="featured-posts">
 
-        <section class="securityplus-posts">
+            <div class="section-title">
+                <h2><span>Featured</span></h2>
+            </div>
 
-            <div class="col-sm-8">
+            <div class="row listfeaturedtag">
 
-                <div class="section-title">
-                    <h2><span>All Stories</span></h2>
-                </div>
+                {% for post in site.posts %}
 
-                <div class="row listsecurityplustag">
+                {% if post.featured == true %}
 
-                    {% for post in site.posts %}
+                {% include featuredbox.html %}
 
-                    {% if post.securityplus == true %}
+                {% endif %}
 
-                    {% include scurityplusbox.html %}
+                {% endfor %}
 
-                    {% endif %}
-
-                    {% endfor %}
-
-                </div>
-            
             </div>
 
         </section>
-
-        <!-- Pagination -->
-        <div class="bottompagination">
-
-            <span class="navigation" role="navigation">
-
-                {% include pagination.html %}
-
-            </span>
-
-        </div>
-
-    </div>
-
-    <div class="col-sm-4">
-        {% include sidebar.html %}
-    </div>
-
-    </section>
