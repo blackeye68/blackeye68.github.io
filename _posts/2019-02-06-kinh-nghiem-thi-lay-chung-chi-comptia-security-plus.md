@@ -4,6 +4,7 @@ title:  "Kinh nghiệm thi lấy chứng chỉ CompTIA Security+"
 author: blackeye
 categories: [ exam network, security, comptia, experience ]
 image: assets/images/10.jpg
+securityplus: true
 ---
 
 (nguồn tham khảo: [Kinh nghiệm thi lấy chứng chỉ CompTIA Security+](http://iot2vn.com/kinh-nghiem-thi-lay-chung-chi-comptia-security/))

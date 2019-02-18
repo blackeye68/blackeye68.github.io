@@ -4,6 +4,7 @@ title:  "Thông tin về chứng chỉ CompTIA Security+"
 author: blackeye
 categories: [ network-security, comptia, security-plus ]
 image: assets/images/9.jpg
+securityplus: true
 ---
 
 CompTIA Security + là chứng nhận toàn cầu xác nhận các kỹ năng cơ bản bạn cần để thực hiện các chức năng bảo mật cốt lõi và theo đuổi sự nghiệp bảo mật CNTT.
