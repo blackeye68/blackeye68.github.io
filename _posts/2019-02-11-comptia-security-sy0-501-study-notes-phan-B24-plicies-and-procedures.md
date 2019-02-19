@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "CompTIA Security+ SY0-501 Study Notes - Phần B25: Policies and Procedures"
+title:  "CompTIA Security+ SY0-501 Study Notes - Phần B24: Policies and Procedures"
 author: blackeye
 categories: [ exam network, security, comptia, experience ]
 image: assets/images/10.jpg
