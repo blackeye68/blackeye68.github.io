@@ -125,131 +125,135 @@ a TLS-encrypted connection
     o # sudo stop service
     
 • Denial of Service
-o Denial of Service (DoS)
-▪ Term used to describe many different types of attacks which attempt to
-make a computer or server’s resources unavailable
-• Flood Attacks
-• Ping of Death
-• Teardrop Attack
-• Permanent DoS
-• Fork Bomb
-o Flood Attack
-▪ A specialized type of DoS which attempts to send more packets to a
-single server or host than they can handle
-o Ping Flood
-▪ An attacker attempts to flood the server by sending too many ICMP echo
-request packets (which are known as pings)
-o Smurf Attack
-▪ Attacker sends a ping to subnet broadcast address and devices reply to
-spoofed IP (victim server), using up bandwidth and processing
-o Fraggle Attack
-▪ Attacker sends a UDP echo packet to port 7 (ECHO) and port 19
-(CHARGEN) to flood a server with UDP packets
-o SYN Flood
-▪ Variant on a Denial of Service (DOS) attack where attacker initiates
-multiple TCP sessions but never completes the 3-way handshake
-▪ Flood guards, time outs, and an IPS can prevent SYN Floods
-o XMAS Attack
-▪ A specialized network scan that sets the FIN, PSH, and URG flags set and
-can cause a device to crash or reboot
-o Ping of Death
-▪ An attack that sends an oversized and malformed packet to another
-computer or server
-o Teardrop Attack
-▪ Attack that breaks apart packets into IP fragments, modifies them with
-overlapping and oversized payloads, and sends them to a victim machine
-o Permanent Denial of Service
-▪ Attack which exploits a security flaw to permanently break a networking
-device by reflashing its firmware
-o Fork Bomb
-▪ Attack that creates a large number of processes to use up the available
-processing power of a computer
+    o Denial of Service (DoS)
+        ▪ Term used to describe many different types of attacks which attempt to
+        make a computer or server’s resources unavailable
+            • Flood Attacks
+            • Ping of Death
+            • Teardrop Attack
+            • Permanent DoS
+            • Fork Bomb
+    o Flood Attack
+        ▪ A specialized type of DoS which attempts to send more packets to a
+        single server or host than they can handle
+    o Ping Flood
+        ▪ An attacker attempts to flood the server by sending too many ICMP echo
+        request packets (which are known as pings)
+    o Smurf Attack
+        ▪ Attacker sends a ping to subnet broadcast address and devices reply to
+        spoofed IP (victim server), using up bandwidth and processing
+    o Fraggle Attack
+        ▪ Attacker sends a UDP echo packet to port 7 (ECHO) and port 19
+        (CHARGEN) to flood a server with UDP packets
+    o SYN Flood
+        ▪ Variant on a Denial of Service (DOS) attack where attacker initiates
+        multiple TCP sessions but never completes the 3-way handshake
+        ▪ Flood guards, time outs, and an IPS can prevent SYN Floods
+    o XMAS Attack
+        ▪ A specialized network scan that sets the FIN, PSH, and URG flags set and
+        can cause a device to crash or reboot
+    o Ping of Death
+        ▪ An attack that sends an oversized and malformed packet to another
+        computer or server
+    o Teardrop Attack
+        ▪ Attack that breaks apart packets into IP fragments, modifies them with
+        overlapping and oversized payloads, and sends them to a victim machine
+    o Permanent Denial of Service
+        ▪ Attack which exploits a security flaw to permanently break a networking
+        device by reflashing its firmware
+    o Fork Bomb
+        ▪ Attack that creates a large number of processes to use up the available
+        processing power of a computer
 • DDoS
-o Distributed Denial of Service (DDoS)
-▪ A group of compromised systems attack simultaneously a single target to
-create a Denial of Service (DOS)
-o DNS Amplification
-▪ Attack which relies on the large amount of DNS information that is sent in
-response to a spoofed query on behalf of the victimized server
+    o Distributed Denial of Service (DDoS)
+        ▪ A group of compromised systems attack simultaneously a single target to
+        create a Denial of Service (DOS)
+    o DNS Amplification
+        ▪ Attack which relies on the large amount of DNS information that is sent in
+        response to a spoofed query on behalf of the victimized server
+
 • Stopping a DDoS
-o GitHub suffered a 1.35 Tbps DDoS
-o Blackholing or Sinkholing
-▪ Identifies any attacking IP addresses and routes all their traffic to a nonexistent server through the null interface
-o An IPS can prevent a small-scale DDoS
-o Specialized security services cloud providers can stop DDoS attacks
+    o GitHub suffered a 1.35 Tbps DDoS
+    o Blackholing or Sinkholing
+        ▪ Identifies any attacking IP addresses and routes all their traffic to a nonexistent server through the null interface
+    o An IPS can prevent a small-scale DDoS
+    o Specialized security services cloud providers can stop DDoS attacks
+
 • Spoofing
-o Spoofing
-▪ Occurs when an attacker masquerades as another person by falsifying
-their identity
-▪ Anything that uniquely identifies a user or system can be spoofed
-▪ Proper authentication is used to detect and prevent spoofing
+    o Spoofing
+        ▪ Occurs when an attacker masquerades as another person by falsifying
+        their identity
+        ▪ Anything that uniquely identifies a user or system can be spoofed
+        ▪ Proper authentication is used to detect and prevent spoofing
+
 • Hijacking
-o Hijacking
-▪ Exploitation of a computer session in an attempt to gain unauthorized
-access to data, services, or other resources on a computer or server
-▪ Session theft
-▪ TCP/IP hijacking
-▪ Blind hijacking
-▪ Clickjacking
-▪ Man-in-the-Middle
-▪ Man-in-the-Browser
-▪ Watering hole
-▪ Cross-site scripting
-o Session Theft
-▪ Attacker guesses the session ID for a web session, enabling them to take
-over the already authorized session of the client
-o TCP/IP Hijacking
-▪ Occurs when an attacker takes over a TCP session between two
-computers without the need of a cookie or other host access
-o Blind Hijacking
-▪ Occurs when an attacker blindly injects data into the communication
-stream without being able to see if it is successful or not
-o Clickjacking
-▪ Attack that uses multiple transparent layers to trick a user into clicking on
-a button or link on a page when they were intending to click on the
-actual page
-o Man-in-the-Middle (MITM)
-▪ Attack that causes data to flow through the attacker’s computer where
-they can intercept or manipulate the data
-o Man-in-the-Browser (MITB)
-▪ Occurs when a Trojan infects a vulnerable web browser and modifies the
-web pages or transactions being done within the browser
-o Watering Hole
-▪ Occurs when malware is placed on a website that the attacker knows his
-potential victims will access
+    o Hijacking
+        ▪ Exploitation of a computer session in an attempt to gain unauthorized
+        access to data, services, or other resources on a computer or server
+        ▪ Session theft
+        ▪ TCP/IP hijacking
+        ▪ Blind hijacking
+        ▪ Clickjacking
+        ▪ Man-in-the-Middle
+        ▪ Man-in-the-Browser
+        ▪ Watering hole
+        ▪ Cross-site scripting
+    o Session Theft
+        ▪ Attacker guesses the session ID for a web session, enabling them to take
+        over the already authorized session of the client
+    o TCP/IP Hijacking
+        ▪ Occurs when an attacker takes over a TCP session between two
+        computers without the need of a cookie or other host access
+    o Blind Hijacking
+        ▪ Occurs when an attacker blindly injects data into the communication
+        stream without being able to see if it is successful or not
+    o Clickjacking
+        ▪ Attack that uses multiple transparent layers to trick a user into clicking on a button or link on a page when they were intending to click on the actual page
+    o Man-in-the-Middle (MITM)
+        ▪ Attack that causes data to flow through the attacker’s computer where
+        they can intercept or manipulate the data
+    o Man-in-the-Browser (MITB)
+        ▪ Occurs when a Trojan infects a vulnerable web browser and modifies the
+        web pages or transactions being done within the browser
+    o Watering Hole
+        ▪ Occurs when malware is placed on a website that the attacker knows his
+        potential victims will access
+
 • Replay Attack
-o Replay Attack
-▪ Network-based attack where a valid data transmission is fraudulently or
-malicious rebroadcast, repeated, or delayed
-▪ Multi-factor authentication can help prevent successful replay attacks
+    o Replay Attack
+        ▪ Network-based attack where a valid data transmission is fraudulently or
+        malicious rebroadcast, repeated, or delayed
+        ▪ Multi-factor authentication can help prevent successful replay attacks
+
 • Transitive Attacks
-o Transitive Attacks aren’t really an attack but more of a conceptual method
-o When security is sacrificed in favor of more efficient operations, additional risk
-exists
+    o Transitive Attacks aren’t really an attack but more of a conceptual method
+    o When security is sacrificed in favor of more efficient operations, additional risk exists
+
 • DNS Attacks
-o DNS Poisoning
-▪ Occurs when the name resolution information is modified in the DNS
-server’s cache
-▪ If the cache is poisoned, then the user can be redirected to a malicious
-website
-o Unauthorized Zone Transfer
-▪ Occurs when an attacker requests replication of the DNS information to
-their systems for use in planning future attacks
-o Altered Hosts File
-▪ Occurs when an attacker modifies the host file to have the client bypass
-the DNS server and redirects them to an incorrect or malicious website
-▪ Windows stores the hosts file in the following directory:
-\%systemroot%\system 32\drivers\etc
-o Pharming
-▪ Occurs when an attacker redirects one website’s traffic to another
-website that is bogus or malicious
-o Domain Name Kiting
-▪ Attack that exploits a process in the registration process for a domain
-name that keeps the domain name in limbo and cannot be registered by
-an authenticated buyer
+    o DNS Poisoning
+        ▪ Occurs when the name resolution information is modified in the DNS
+        server’s cache
+        ▪ If the cache is poisoned, then the user can be redirected to a malicious
+        website
+    o Unauthorized Zone Transfer
+        ▪ Occurs when an attacker requests replication of the DNS information to
+        their systems for use in planning future attacks
+    o Altered Hosts File
+        ▪ Occurs when an attacker modifies the host file to have the client bypass
+        the DNS server and redirects them to an incorrect or malicious website
+        ▪ Windows stores the hosts file in the following directory:
+        \%systemroot%\system 32\drivers\etc
+    o Pharming
+        ▪ Occurs when an attacker redirects one website’s traffic to another
+        website that is bogus or malicious
+    o Domain Name Kiting
+        ▪ Attack that exploits a process in the registration process for a domain
+        name that keeps the domain name in limbo and cannot be registered by
+        an authenticated buyer
+
 • ARP Poisoning
-o ARP Poisoning
-▪ Attack that exploits the IP address to MAC resolution in a network to
-steal, modify, or redirect frames within the local area network
-▪ Allows an attacker to essentially take over any sessions within the LAN
-▪ ARP Poisoning is prevented by VLAN segmentation and DHCP snooping
+    o ARP Poisoning
+        ▪ Attack that exploits the IP address to MAC resolution in a network to
+        steal, modify, or redirect frames within the local area network
+        ▪ Allows an attacker to essentially take over any sessions within the LAN
+        ▪ ARP Poisoning is prevented by VLAN segmentation and DHCP snooping

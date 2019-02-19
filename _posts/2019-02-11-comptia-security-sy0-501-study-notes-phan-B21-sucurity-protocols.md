@@ -8,13 +8,13 @@ securityplus: true
 ---
 
 # Security Protocols
-* Security Protocols
+* **Security Protocols**
     * Emails
     * Websites
     * Remote control
     * Remote access
 
-* S/MIME
+* **S/MIME**
     * Secure/Multipurpose Internet Mail Extensions (S/MIME)
         * A standard that provides cryptographic security for electronic messaging
     * Authentication
@@ -22,7 +22,7 @@ securityplus: true
     * Non-repudiation
     * S/MIME can encrypt emails and their contents …including malware
 
-* SSL and TLS
+* **SSL and TLS**
     * Secure Socket Layer (SSL) and Transport Layer Security (TLS)
         * Cryptographic protocols that provide secure Internet communications for web browsing, instant messaging, email, VoIP, and many other services
         * We already covered how TLS works in the PKI lesson
@@ -30,13 +30,13 @@ securityplus: true
         * A protocol is tricked into using a lower quality version of itself instead of a higher quality version
     * Break and Inspect
 
-* SSH
-    * Secure Shell (SSH)
+* **SSH**
+    * **Secure Shell (SSH)**
         * A protocol that can create a secure channel between two computers or network devices to enable one device to control the other device
         * SSH requires a server (daemon) to be run on one device and a client on the other
         * SSH 2.0 uses Diffie-Hellman key exchange and MACs
 
-* VPN Protocols
+* **VPN Protocols**
     * Virtual Private Networks
         * A secure connection between two or more computers or device that are not on the same private network
     * Point-to-Point Tunneling Protocol (PPTP)

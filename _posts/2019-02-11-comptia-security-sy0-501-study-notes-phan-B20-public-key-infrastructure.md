@@ -7,13 +7,13 @@ securityplus: true
 ---
 
 # Public Key Infrastructure
-* Public Key Infrastructure
+* **Public Key Infrastructure**
     * Public Key Infrastructure (PKI)
         * An entire system of hardware, software, policies, procedures, and people that is based on asymmetric encryption
     * PKI and public key encryption are related but they are not the same thing
     * PKI is the entire system and just uses public key cryptography to function
 
-* Digital Certificates
+* **Digital Certificates**
     * Certificates
         * Digitally-signed electronic documents that bind a public key with a user’s identity
     * X.509
@@ -49,7 +49,7 @@ securityplus: true
         * .p7b
     * Remember, these file types are associated with PKI
 
-* Certificate Authorities
+* **Certificate Authorities**
     * Registration Authority
         * Used to verify information about a user prior to requesting that a certificate authority issue the certificate
     * Certificate Authority
@@ -70,7 +70,7 @@ securityplus: true
             * A specialized type of software that allows the restoration of a lost or corrupted key to be performed
     * All of a CA’s certificates must be revoked if it is compromised
 
-* Web of Trust
+* **Web of Trust**
     * Web of Trust
         * A decentralized trust model that addresses issues associated with the public authentication of public keys within a CA-based PKI system
         * A peer-to-peer model

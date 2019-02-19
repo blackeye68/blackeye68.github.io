@@ -4,7 +4,7 @@ title:  "Tổng hợp các website hướng dẫn, phát triên về Markdown"
 author: blackeye
 categories: [ markdown, tutorials, website ]
 image: assets/images/6.jpg
-jekll: true
+jekyll: true
 ---
 
 ## TỔNG HỢP CÁC WEBSITE HƯỚNG DẪN VỀ MARKDOWN

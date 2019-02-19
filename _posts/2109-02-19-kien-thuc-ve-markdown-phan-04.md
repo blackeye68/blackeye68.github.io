@@ -4,7 +4,7 @@ title:  "Kiến thức về ngôn ngữ Markdown-Phần 04: Cú pháp mở rộn
 author: blackeye
 categories: [ markdown, phan2, kienthuc ]
 image: assets/images/5.jpg
-jekll: true
+jekyll: true
 ---
 
 

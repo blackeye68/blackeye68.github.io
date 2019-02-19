@@ -53,7 +53,7 @@ securityplus: true
         * SDKs must come from trusted source to ensure no malicious code is being added
 
 * **Testing Methods**
-    * System Testing
+    * **System Testing**
         * Black-box Testing
             * Occurs when a tester is not provided with any information about the system or program prior to conducting the test
         * White-box Testing
@@ -61,33 +61,33 @@ securityplus: true
 
     ![]({{site.baseurl}}/Assets/images/cs_plus/ssd03.png)
 
-    * Structured Exception Handling (SEH)
+    * **Structured Exception Handling (SEH)**
         * Provides control over what the application should do when faced with a runtime or syntax error
-    * Programs should use input validation when taking data from users
+    * **Programs should use input validation when taking data from users**
         * Input Validation
             * Applications verify that information received from a user matches a specific format or range of values
         * Example
 
     ![]({{site.baseurl}}/Assets/images/cs_plus/ssd04.png)
 
-    * Static Analysis
+    * **Static Analysis**
         * Source code of an application is reviewed manually or with automatic tools without running the code
-    * Dynamic Analysis
+    * **Dynamic Analysis**
         * Analysis and testing of a program occurs while it is being executed or run
-    * Fuzzing
-        * Injection of randomized data into a software program in an attempt to find system failures, memory leaks, error handling issues, and improper input validation
+    * **Fuzzing**
+        * Injection of randomized data into a software program in an attempt to find system failures, memory leaks error handling issues, and improper input validation
 
 * **Software Vulnerabilities and Exploits**
-    * Backdoors
+    * **Backdoors**
         * Code placed in computer programs to bypass normal authentication and other security mechanisms
         * Backdoors are a poor coding practice and should not be utilized
-    * Directory Traversal
+    * **Directory Traversal**
         * Method of accessing unauthorized directories by moving through the directory structure on a remote server
-    * Arbitrary Code Execution
+    * **Arbitrary Code Execution**
         * Occurs when an attacker is able to execute or run commands on a victim computer
-    * Remote Code Execution (RCE)
+    * **Remote Code Execution (RCE)**
         * Occurs when an attacker is able to execute or run commands on a remote computer
-    * Zero Day
+    * **Zero Day**
         * Attack against a vulnerability that is unknown to the original developer or manufacturer
 
 * **Buffer Overflows**
