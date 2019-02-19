@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Kiến thức về ngôn ngữ Markdown-Phần 01"
+title:  "Kiến thức về ngôn ngữ Markdown-Phần 01: Giới thiệu về Markdown"
 author: blackeye
 categories: [ markdown, phan1, kienthuc ]
 image: assets/images/10.jpg
