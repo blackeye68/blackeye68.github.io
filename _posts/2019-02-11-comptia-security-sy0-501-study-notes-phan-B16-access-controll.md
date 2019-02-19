@@ -9,7 +9,7 @@ securityplus: true
 
 # Access Control
 • Access Control
-o Access Control
+    o Access Control
 ▪ Methods used to secure data and information by verifying a user has
 permissions to read, write, delete, or otherwise modify it
 o Access Control Models

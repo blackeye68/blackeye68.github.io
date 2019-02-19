@@ -59,33 +59,33 @@ Asset Value x Exposure Factor
 ▪ Annualized Loss Expectancy (ALE)
 • Expected cost of a realized threat over a given year
 ALE = SLE x ARO
-o If it costs $200,000 to build a server room that never loses power, then it
-would take 33 years to recover the building costs instead of losing power 3x
-year!
-o Hybrid approaches that combine quantitative and qualitative analysis are
-commonly used
+    o If it costs $200,000 to build a server room that never loses power, then it would take 33 years to recover the building costs instead of losing power 3x year!
+    o Hybrid approaches that combine quantitative and qualitative analysis are commonly used
+
 • Methodologies
-o Security Assessments
-▪ Verify that the organization’s security posture is designed and configured
-properly to help thwart different types of attacks
-▪ Assessments might be required by contracts, regulations, or laws
-▪ Assessments may be active or passive
+    o Security Assessments
+        ▪ Verify that the organization’s security posture is designed and configured
+        properly to help thwart different types of attacks
+        ▪ Assessments might be required by contracts, regulations, or laws
+        ▪ Assessments may be active or passive
 • Active Assessments
-o Utilize more intrusive techniques like scanning, hands-on
-testing, and probing of the network to determine
-vulnerabilities
+    o Utilize more intrusive techniques like scanning, hands-on
+    testing, and probing of the network to determine
+    vulnerabilities
+
 • Passive Assessments
-o Utilize open source information, the passive collection and
-analysis of the network data, and other unobtrusive
-methods without making direct contact with the targeted
-systems
-o Passive techniques are limited in the amount of detail they
-find
+    o Utilize open source information, the passive collection and
+    analysis of the network data, and other unobtrusive
+    methods without making direct contact with the targeted
+    systems
+    o Passive techniques are limited in the amount of detail they
+    find
+
 • Security Controls
-o Security Controls
-▪ Methods implemented to mitigate a particular risk
-o Security controls are categorized as physical, technical, or administrative
-▪ Physical Controls
+    o Security Controls
+        ▪ Methods implemented to mitigate a particular risk
+    o Security controls are categorized as physical, technical, or administrative
+        ▪ Physical Controls
 • Any security measures that are designed to deter or prevent
 unauthorized access to sensitive information or the systems that
 contain it

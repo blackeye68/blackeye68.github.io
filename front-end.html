@@ -1,0 +1,39 @@
+---
+layout: page
+title: CompTIA Security+ All Posts
+comments: false
+---
+
+</div>
+</div>
+<!-- We've temporary closed main-content and container to have a full width intro -->
+
+<!-- We reopen main-content and container -->
+
+<div class="container">
+    <div class="main-content">
+
+
+        <!-- Featured
+        ================================================== -->
+        <section class="featured-posts">
+
+            <div class="section-title">
+                <h2><span>All Stories</span></h2>
+            </div>
+
+            <div class="row listfeaturedtag">
+
+                {% for post in site.posts %}
+
+                {% if post.securityplus == true %}
+
+                {% include securityplusbox.html %}
+
+                {% endif %}
+
+                {% endfor %}
+
+            </div>
+
+        </section>

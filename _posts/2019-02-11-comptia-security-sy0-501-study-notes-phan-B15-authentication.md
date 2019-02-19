@@ -9,20 +9,21 @@ securityplus: true
 
 # Authentication
 • Authentication
-o Multi-factor Authentication
-▪ Use of two or more authentication factors to prove a user’s identity
-• Knowledge
-• Ownership
-• Characteristic
-• Location
-• Action
-▪ Username and password are only considered single-factor authentication
-o One-Time Passwords
-▪ Time-based One Time Password (TOTP)
-• A password is computed from a shared secret and current time
-▪ HMAC-based One Time Password (HOTP)
-• A password is computed from a shared secret and is synchronized
-between the client and the server
+    o Multi-factor Authentication
+        ▪ Use of two or more authentication factors to prove a user’s identity
+            • Knowledge
+            • Ownership
+            • Characteristic
+            • Location
+            • Action
+        ▪ Username and password are only considered single-factor authentication
+    o One-Time Passwords
+        ▪ Time-based One Time Password (TOTP)
+            • A password is computed from a shared secret and current time
+        ▪ HMAC-based One Time Password (HOTP)
+            • A password is computed from a shared secret and is synchronized
+            between the client and the server
+            
 • Authentication Models
 o Context-aware Authentication
 ▪ Process to check the user’s or system’s attributed or characteristics prior

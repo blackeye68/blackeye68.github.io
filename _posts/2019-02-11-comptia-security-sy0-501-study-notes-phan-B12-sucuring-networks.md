@@ -7,9 +7,9 @@ image: assets/images/10.jpg
 securityplus: true
 ---
 
-Securing Networks
+# Securing Networks
 • Securing Networks
-o Wired and wireless networks are vulnerable to attacks
+    o Wired and wireless networks are vulnerable to attacks
 • Securing Network Devices
 o Network devices include switches, routers, firewalls, and more
 o Default Accounts
