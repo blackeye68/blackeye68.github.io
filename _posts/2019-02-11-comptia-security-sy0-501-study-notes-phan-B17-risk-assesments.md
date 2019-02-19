@@ -86,13 +86,13 @@ ALE = SLE x ARO
         ▪ Methods implemented to mitigate a particular risk
     o Security controls are categorized as physical, technical, or administrative
         ▪ Physical Controls
-• Any security measures that are designed to deter or prevent
-unauthorized access to sensitive information or the systems that
-contain it
-▪ Technical Controls
-• Safeguards and countermeasures used to avoid, detect,
-counteract, or minimize security risks to our systems and
-information
+            • Any security measures that are designed to deter or prevent
+            unauthorized access to sensitive information or the systems that
+            contain it
+        ▪ Technical Controls
+            • Safeguards and countermeasures used to avoid, detect,
+            counteract, or minimize security risks to our systems and
+            information
 ▪ Administrative Controls
 • Focused on changing the behavior of people instead of removing
 the actual risk involved
