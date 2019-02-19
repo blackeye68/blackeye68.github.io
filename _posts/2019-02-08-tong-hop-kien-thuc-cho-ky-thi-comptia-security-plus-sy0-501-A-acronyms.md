@@ -4,6 +4,7 @@ title:  "Tổng hợp kiến thức của kỳ thi CompTIA Security+ SY0-501 - S
 author: blackeye
 categories: [ exam, network security, comptia, acronyms, experience ]
 image: assets/images/10.jpg
+securityplus: true
 ---
 
 # SECURITY+ ACRONYMS

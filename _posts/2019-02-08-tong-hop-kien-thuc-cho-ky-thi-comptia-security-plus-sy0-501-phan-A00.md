@@ -5,6 +5,7 @@ author: blackeye
 categories: [ exam network, security, comptia, experience ]
 image: assets/images/10.jpg
 featured: true
+securityplus: true
 ---
 
 # Certification Exam

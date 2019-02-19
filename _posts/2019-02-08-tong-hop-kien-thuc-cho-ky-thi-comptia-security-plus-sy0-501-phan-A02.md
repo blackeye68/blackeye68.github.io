@@ -4,6 +4,7 @@ title:  "Tổng hợp kiến thức của kỳ thi CompTIA Security+ SY0-501 - P
 author: blackeye
 categories: [ exam network, security, comptia, experience ]
 image: assets/images/10.jpg
+securityplus: true
 ---
 # Technologies and Tools
 #### 1. Install and configure network components, both hardware- and software-based, to

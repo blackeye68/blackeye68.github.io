@@ -4,6 +4,7 @@ title:  "CompTIA Security+ SY0-501 Study Notes - Phần B14: Facilities Security
 author: blackeye
 categories: [ exam network, security, comptia, experience ]
 image: assets/images/10.jpg
+securityplus: true
 ---
 
 # Facilities Security

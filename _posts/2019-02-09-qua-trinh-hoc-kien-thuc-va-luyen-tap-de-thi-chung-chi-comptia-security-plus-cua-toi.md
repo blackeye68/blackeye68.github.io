@@ -4,6 +4,7 @@ title:  "Quá trình học kiến thức và luyện tập thi chứng chỉ Com
 author: blackeye
 categories: [ learn and practice, security, comptia, my experience ]
 image: assets/images/myexam.jpg
+securityplus: true
 ---
 
 # Quá trình học kiến thức và luyện tập thi chứng chỉ CompTIA Security+ của tôi

@@ -4,7 +4,9 @@ title:  "Tổng hợp kiến thức của kỳ thi CompTIA Security+ SY0-501 - P
 author: blackeye
 categories: [ exam network, security, comptia, experience, A06 ]
 image: assets/images/10.jpg
+securityplus: true
 ---
+
 # Cryptography and PKI
 #### 1. Compare and contrast basic concepts of cryptography.
 * Symmetric algorithms

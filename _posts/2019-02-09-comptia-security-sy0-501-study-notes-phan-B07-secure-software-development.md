@@ -4,6 +4,7 @@ title:  "CompTIA Security+ SY0-501 Study Notes - Phần B07: Secure Software Dev
 author: blackeye
 categories: [ exam, network security, comptia, study notes ]
 image: assets/images/6.jpg
+securityplus: true
 ---
 
 # Secure Software Development

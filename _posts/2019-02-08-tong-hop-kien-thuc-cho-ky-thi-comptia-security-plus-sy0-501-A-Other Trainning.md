@@ -4,6 +4,7 @@ title:  "Tổng hợp kiến thức của kỳ thi CompTIA Security+ SY0-501 - H
 author: blackeye
 categories: [ exam, network security+, comptia, acronyms, trainning ]
 image: assets/images/10.jpg
+securityplus: true
 ---
 
 # Suggested Classroom Equipment for Security+ Certification Training

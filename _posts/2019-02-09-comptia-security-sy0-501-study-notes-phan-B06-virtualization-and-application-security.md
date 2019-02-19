@@ -4,6 +4,7 @@ title:  "CompTIA Security+ SY0-501 Study Notes - Phần B05: Virtualization & Ap
 author: blackeye
 categories: [ exam, network security, comptia, study notes ]
 image: assets/images/10.jpg
+securityplus: true
 ---
 
 # Virtualization

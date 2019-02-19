@@ -4,7 +4,9 @@ title:  "Tổng hợp kiến thức của kỳ thi CompTIA Security+ SY0-501 - P
 author: blackeye
 categories: [ exam network, security, comptia, experience ]
 image: assets/images/10.jpg
+securityplus: true
 ---
+
 # Identity and Access Management
 #### 1. Compare and contrast identity and access management concepts.
 * Identification, authentication, authorization and accounting (AAA)

@@ -5,6 +5,7 @@ author: blackeye
 categories: [ exam network, security, comptia, experience, conclusion ]
 image: assets/images/4.jpg
 featured: true
+securityplus: true
 ---
 # Conclusion - Phần kết luận
 * **Conclusion**

@@ -4,6 +4,7 @@ title:  "Tổng hợp kiến thức của kỳ thi CompTIA Security+ SY0-501 - P
 author: blackeye
 categories: [ exam network, security, comptia, experience ]
 image: assets/images/10.jpg
+securityplus: true
 ---
 # Architecture and Design
 #### 1. Explain use cases and purpose for frameworks, best practices and secure

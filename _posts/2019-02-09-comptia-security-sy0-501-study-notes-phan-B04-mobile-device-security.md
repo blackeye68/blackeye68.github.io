@@ -4,6 +4,7 @@ title:  "CompTIA Security+ SY0-501 Study Notes - Phần B04: Mobile Device Secur
 author: blackeye
 categories: [ exam, network security, comptia, study notes ]
 image: assets/images/1.jpg
+securityplus: true
 ---
 # Mobile Device Security
 * **Mobile Device Security**

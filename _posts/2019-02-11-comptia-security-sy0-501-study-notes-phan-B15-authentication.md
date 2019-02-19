@@ -3,7 +3,8 @@ layout: post
 title:  "CompTIA Security+ SY0-501 Study Notes - Phần B15: Authentication"
 author: blackeye
 categories: [ exam network, security, comptia, experience ]
-image: assets/images/10.jpg
+image: assets/images/11.jpg
+securityplus: true
 ---
 
 # Authentication

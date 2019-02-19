@@ -4,6 +4,7 @@ title:  "CompTIA Security+ SY0-501 Study Notes - Phần B08: Perimeter Security"
 author: blackeye
 categories: [ exam, network security, comptia, study notes ]
 image: assets/images/10.jpg
+securityplus: true
 ---
 
 # Perimeter Security

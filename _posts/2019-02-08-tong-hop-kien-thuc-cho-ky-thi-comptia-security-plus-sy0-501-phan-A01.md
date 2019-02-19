@@ -4,6 +4,7 @@ title:  "Tổng hợp kiến thức của kỳ thi CompTIA Security+ SY0-501 - P
 author: blackeye
 categories: [ exam network, security, comptia, experience ]
 image: assets/images/10.jpg
+securityplus: true
 ---
 # Threats, Attacks and Vulnerabilities
 #### 1. Given a scenario, analyze indicators of compromise and determine the type of
