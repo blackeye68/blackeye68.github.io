@@ -4,6 +4,7 @@ title:  "Kiến thức về ngôn ngữ Markdown-Phần 02"
 author: blackeye
 categories: [ markdown, phan2, kienthuc ]
 image: assets/images/5.jpg
+jekll: true
 ---
 
 # Cheat Sheet

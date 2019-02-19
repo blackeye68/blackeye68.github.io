@@ -93,14 +93,14 @@ ALE = SLE x ARO
             • Safeguards and countermeasures used to avoid, detect,
             counteract, or minimize security risks to our systems and
             information
-▪ Administrative Controls
-• Focused on changing the behavior of people instead of removing
-the actual risk involved
-o NIST categories are management, operational, and technical
-▪ Management Controls
-• Security controls that are focused on decision-making and the
-management of risk
-▪ Operational Controls
+        ▪ Administrative Controls
+            • Focused on changing the behavior of people instead of removing
+            the actual risk involved
+    o NIST categories are management, operational, and technical
+        ▪ Management Controls
+            • Security controls that are focused on decision-making and the
+            management of risk
+        ▪ Operational Controls
 • Focused on the things done by people
 ▪ Technical Controls
 • Logical controls that are put into a system to help secure it

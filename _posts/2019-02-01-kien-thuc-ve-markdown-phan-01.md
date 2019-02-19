@@ -4,6 +4,7 @@ title:  "Kiến thức về ngôn ngữ Markdown-Phần 01"
 author: blackeye
 categories: [ markdown, phan1, kienthuc ]
 image: assets/images/10.jpg
+jekyll: true
 ---
 
 ## Giới thiệu về Markdown - What's Markdown ?
