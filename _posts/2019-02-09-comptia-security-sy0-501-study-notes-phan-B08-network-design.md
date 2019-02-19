@@ -9,11 +9,11 @@ securityplus: true
 
 # Network Design
 * **Network Security**
-    * OSI Model
+    * **OSI Model**
 
     ![]({{site.baseurl}}/Assets/images/cs_plus/nd01.png)
 
-    * If you never learned network fundamentals, go back and review
+    * **If you never learned network fundamentals, go back and review**
 
 * **OSI Model**
     * OSI Model
