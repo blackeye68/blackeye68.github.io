@@ -4,6 +4,7 @@ title:  "Thông tin về kỳ thi Exam 70-486: Developing ASP.NET MVC Web Applic
 author: blackeye
 categories: [ certification, laptrinh, microsoft, 70-486, exam ]
 image: assets/images/8.jpg
+dotnet: true
 ---
 
 (nguồn: [Exam 70-486-Microsoft](https://www.microsoft.com/en-us/learning/exam-70-486.aspx))

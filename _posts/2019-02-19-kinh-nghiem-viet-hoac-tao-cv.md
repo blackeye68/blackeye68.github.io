@@ -101,8 +101,10 @@ Hiện nay, CV là phần không thể thiếu của bất kì ai trong quá tr�
 - [TOPCV](https://www.topcv.vn/) : Trang web cung cấp mẫu cv miễn phí + trả phí + khóa học viết CV + có phần hướng dẫn viết CV và các phần CV.
 - [iconicjob](https://iconicjob.vn/blog/7-bi-kip-tao-cv-thu-hut-nha-tuyen-dung-kem-mau-cv-mien-phi/) : Trang web chia sẻ cách viết CV và cung cấp miễn phí 1 số mẫu CV của nhiều ngành nghề, lĩnh vực
 - [Vietpencil](https://vietpencil.com/digital-marketing/huong-dan-viet-cv-xin-viec/) : Trang web chia sẻ hướng dẫn cách viết CV và cũng cung cấp 1 số mẫu CV và nội dung CV tham khảo
-
-
+- Các khóa học tạo CV:
+    + [Tuyệt chiêu viết CV](https://edumall.vn/course/tuyet-chieu-viet-cv) - Thạc sỹ: Đỗ Thị Yến (trên Edumall.vn)
+    + [Kỹ năng viết CV chinh phục nhà tuyển dụng](https://kyna.vn/ky-nang-viet-cv-chinh-phuc-nha-tuyen-dung) - Giảng viên: Nguyễn Đức Hải (trên Kyna.vn)
+    + [Bí quyết viết CV - dự phỏng vấn](https://unica.vn/bi-quyet-viet-cv-du-phong-van) - Giảng viên: Hán Quang Dự (trên Unica.vn)
 
 
 [^1]: CV là viết tắt của "Curriculum Vitea" còn Resumé cũng tương tự như CV nhưng từ Resumé chủ yếu dùng ở Mỹ. 2 từ đều mang ý nghĩa như nhau.

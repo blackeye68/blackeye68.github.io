@@ -4,6 +4,7 @@ title:  "Những chứng chỉ liên quan đến kỹ thuật lập trình của
 author: blackeye
 categories: [ certification, laptrinh, microsoft ]
 image: assets/images/10.jpg
+dotnet: true
 ---
 
 ## MCSA: Web Applications

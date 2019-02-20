@@ -4,6 +4,7 @@ title:  "My ASP.NET MVC Study Notes - Part 00"
 author: blackeye
 categories: [ exam network, security, comptia, experience ]
 image: assets/images/10.jpg
+dotnet: true
 ---
 
 # My ASP.NET MVC Study Notes - INDEX
