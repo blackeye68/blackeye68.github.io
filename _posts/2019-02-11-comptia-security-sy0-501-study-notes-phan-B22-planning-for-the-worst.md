@@ -8,14 +8,13 @@ securityplus: true
 ---
 
 # Planning for the Worst
-* Planning for the Worst
+* **Planning for the Worst**
     * Redundancy usually refers to when you have something extra or unnecessary
     * Redundancy helps ensure fault-tolerance to continue operations
     * Single Point of Failure
-        * The individual elements, objects, or parts of a system that would cause
-        the whole system to fail if they were to fail
+        * The individual elements, objects, or parts of a system that would cause the whole system to fail if they were to fail
 
-* Redundant Power
+* **Redundant Power**
     * Redundant Power Supply
         * An enclosure that provides two or more complete power supplies
         * A redundant power supply mitigates a single point of failure
@@ -32,7 +31,7 @@ securityplus: true
     * Blackout
         * Occurs when there is a total loss of power for a prolonged period
 
-* Backup Power
+* **Backup Power**
     * Uninterruptible Power Supply (UPS)
         * Combines the functionality of a surge protector with that of a battery
         backup
@@ -43,7 +42,7 @@ securityplus: true
         * Battery-inverter
     * How do you decide which to use?
 
-* Data Redundancy
+* **Data Redundancy**
     * Redundant Array of Independent Disks (RAID)
         * Allows the combination of multiple physical hard disks into a single logical
         hard disk drive that is recognized by the operating system
@@ -69,11 +68,11 @@ securityplus: true
         * Provides two independent zones with full access to the data (RAID 10)
     * RAIDs provide redundancy and high-availability
 
-* Network Redundancy
+* **Network Redundancy**
     * Focused on ensuring that the network remains up
     * Redundant Internet connections
 
-* Server Redundancy
+* **Server Redundancy**
     * Cluster
         * Two or more servers working together to perform a particular job
         function
@@ -82,7 +81,7 @@ securityplus: true
     * Load-balancing Cluster
         * Servers are clustered in order to share resources such as CPU, RAM, and
         hard disks
-* Redundant Sites
+* **Redundant Sites**
     * Hot Site
         * A near duplicate of the original site of the organization that can be up
         and running within minutes
@@ -93,42 +92,36 @@ securityplus: true
         * A site that has tables, chairs, bathrooms, and possibly some technical
         items like phones and network cabling
     * How do you choose the type of site?
-* Data Backup
+* **Data Backup**
     * Maintaining a good backup is crucial to disaster recovery
     * Full Backup
         * All of the contents of a drive are backed up
     * Incremental Backup
-        * Only conducts a backup of the contents of a drive that have changed
-since the last full or incremental backup
+        * Only conducts a backup of the contents of a drive that have changed since the last full or incremental backup
     * Differential Backup
-        * Only conducts a backup of the contents of a drive that has changed since
-        the last full backup
+        * Only conducts a backup of the contents of a drive that has changed since the last full backup
         * Differential backups take more time to create but less time to restore
 
-* Tape Rotation
+* **Tape Rotation**
     * 10 Tape Rotation
-        * Each tape is used once per day for two weeks and then the entire set is
-        reused
+        * Each tape is used once per day for two weeks and then the entire set is reused
     * Grandfather-Father-Son
-        * Three sets of backup tapes are defined as the son (daily), the father
-        (weekly), and the grandfather (monthly)
+        * Three sets of backup tapes are defined as the son (daily), the father (weekly), and the grandfather (monthly)
     * Towers of Hanoi
-        * Three sets of backup tapes (like the grandfather-father-son) that are
-        rotated in a more complex system
+        * Three sets of backup tapes (like the grandfather-father-son) that are rotated in a more complex system
     * Snapshot Backup
-        * Type of backup primarily used to capture the entire operating system
-        image including all applications and data
+        * Type of backup primarily used to capture the entire operating system image including all applications and data
         * Snapshots are also commonly used with virtualized systems
 
-* Disaster Recovery Planning
-    * Disaster Recovery Planning
+* **Disaster Recovery Planning**
+    * **Disaster Recovery Planning**
         * The development of an organized and in-depth plan for problems that could affect the access of data or the organization’s building
             * Fire
             * Flood
             * Long-term Power Loss
             * Theft or Attack
             * Loss of Building
-    * Disaster Recovery Plan (DRP) should be written down
+    * **Disaster Recovery Plan (DRP) should be written down**
         * Contact Information
         * Impact Determination
         * Recovery Plan
