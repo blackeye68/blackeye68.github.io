@@ -30,13 +30,13 @@ securityplus: true
             CO2) instead of water to extinguish a fire
     * If you hear a loud alarm in the server room… GET OUT!
 
-* HVAC
+* **HVAC**
     * HVAC
         * Heating, Ventilation, and Air Conditioning
     * Humidity should be kept around 40%
     * HVAC systems may be connected to ICS and SCADA networks
 
-* Shielding
+* **Shielding**
     * Shielded Twisted Pair (STP) adds a layer of shielding inside the cable
     * Faraday Cage
         * Shielding installed around an entire room that prevents electromagnetic
@@ -47,7 +47,7 @@ securityplus: true
         facility
         * TEMPEST facilities are also resistant to EMPs (electromagnetic pulses)
 
-* Vehicles
+* **Vehicles**
     * Controller Area Network (CAN)
         * Connects all of a car’s systems together in order for them to
         communicate effectively

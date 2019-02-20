@@ -4,6 +4,7 @@ title:  "Tác hại của việc ngồi lâu với lập trình viên"
 author: blackeye
 categories: [ programmer, experience ]
 image: assets/images/7.jpg
+others: true
 ---
 
 ### Nguyên nhân của việc ngồi lâu

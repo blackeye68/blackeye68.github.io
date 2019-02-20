@@ -5,6 +5,7 @@ author: blackeye
 categories: [ programmer, experience, part-01 ]
 image: assets/images/1.jpg
 featured: true
+others: true
 ---
   Trong thời đại số mà các công nghệ, mạng xã hội đang ngày càng thể hiện sự ảnh hưởng của chúng, mỗi chúng ta không chỉ tồn tại trong thế giới thực, mà còn trong thế giới online. Sự hiện diện của mỗi người trong thế giới online đang dần trở nên quan trọng, khi mà ở đó, ta không những có thể kết nối với những người quen biết xung quanh mà còn được biết đến bởi gần một nửa dân số thế giới (hơn 3 triệu người trên thế giới đang là công dân của thế giới online – Theo internetlivestats). Việc hiện diện này với mỗi lập trình viên lại càng cần thiết. Nó mở ra những cơ hội rất lớn và mang về nhiều lợi ích. Hôm nay [DucnaShare](https://ducnashare.github.io/) sẽ điểm qua một vài lợi ích khi lập trình viên có website cá nhân.
 
