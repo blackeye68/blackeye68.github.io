@@ -48,6 +48,9 @@ securityplus: true
         * Software that is loaded on a managed device to redirect information to the network management system
     * **Network Management System (NMS)**
         * Software running on one or more servers to control the monitoring of network-attached devices and computers
+
+    ![]({{site.baseurl}}/assets/images/cs_plus/maa01.md)
+
     * **SNMP v1/v2 are insecure due to the use of community strings to access a device**
     * **SNMP v3**
         * Version of SNMP that provides integrity, authentication, and encryption of the messages being sent over the network

@@ -8,7 +8,7 @@ securityplus: true
 ---
 
 # Access Control
-* Access Control
+- **Access Control**
     o Access Control
         ▪ Methods used to secure data and information by verifying a user has permissions to read, write, delete, or otherwise modify it
     * Access Control Models
@@ -43,7 +43,7 @@ securityplus: true
             statements
             • If Jason is in HR, then give him access to \\fileserver\HR
 
-• Best Practices
+- Best Practices
     o Best Practices
         ▪ The access control policy is determined by the owner
         ▪ Best Practices for Access Control
@@ -67,7 +67,7 @@ securityplus: true
         ▪ Job rotation also helps the organization identify theft, fraud, and abuse of
         position
 
-• Users and Groups
+- Users and Groups
     o Computers can have multiple users and groups
         1. Right-click on an empty area in the Users folder of ADUC and select
         Create New User
@@ -107,21 +107,22 @@ securityplus: true
             • Hired
             • Fired
             • Promoted
-            • Permissions
-    o Permissions are inherited by default from the parent when a new folder is
-    created
+
+- Permissions
+    o Permissions are inherited by default from the parent when a new folder is created
     o Any permissions added/removed from the parent folder will pass to the child
     by default too!
     o Propagation
-▪ Occurs when permissions are passed to a subfolder from the parent
-through inheritance
+        ▪ Occurs when permissions are passed to a subfolder from the parent
+        through inheritance
     o Use Groups for roles and do not assign users directly to a folder’s permissions
     o Review Note: CompTIA A+
     o If you copy a folder, then permissions are inherited from the parent folder it is
     copied into
     o If you move a folder, then permissions are retained from its
     original permissions
-• Usernames and Passwords
+
+- Usernames and Passwords
     o first.last@yourcompany.com
     o Strong Passwords
         ▪ Contain uppercase letters, lowercase letters, numbers, special characters,
@@ -135,11 +136,11 @@ through inheritance
             • Turn this on in the Advanced tab of the User Accounts dialogue box
         6. Use good, strong policies in regards to your passwords
 
-* User Account Control
-    * User Account Control (UAC)
+- **User Account Control**
+    * **User Account Control (UAC)**
         ▪ A security component in Windows that keeps every user in standard user
         mode instead of acting like an administrative user
-    * [*] Only exception is the Administrator account *
+        + _**[*] Only exception is the Administrator account**_
         1. Eliminates unnecessary admin-level requests for Windows resources
         2. Reduces risk of malware using admin-level privileges to cause system
         issues
