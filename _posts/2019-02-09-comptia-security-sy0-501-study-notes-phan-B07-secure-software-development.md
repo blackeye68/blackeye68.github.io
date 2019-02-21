@@ -165,6 +165,7 @@ securityplus: true
 ![]({{site.baseurl}}/Assets/images/cs_plus/ssd19.png)
 ![]({{site.baseurl}}/Assets/images/cs_plus/ssd20.png)
 ![]({{site.baseurl}}/Assets/images/cs_plus/ssd21.png)
-
+* 
+    * 
         * SQL injection is prevented through input validation and using least privilege when accessing a database
         * If you see ` OR 1=1; on the exam, it’s an SQL injection

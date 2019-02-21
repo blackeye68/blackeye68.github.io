@@ -77,25 +77,25 @@ securityplus: true
 * **DMZ** Demilitarized Zone
 * **DNAT** Destination Network Address Transaction
 * **DNS** Domain Name Service (Server)
-* DoS Denial of Service
-* DRP Disaster Recovery Plan
-* DSA Digital Signature Algorithm
-* DSL Digital Subscriber Line
-* DSU Data Service Unit
-* EAP Extensible Authentication Protocol
-* ECB Electronic Code Book
-* ECC Elliptic Curve Cryptography
-* ECDHE Elliptic Curve Diffie-Hellman Ephemeral
-* ECDSA Elliptic Curve Digital Signature Algorithm
-* EFS Encrypted File System
-* EMI Electromagnetic Interference
-* EMP Electro Magnetic Pulse
-* ERP Enterprise Resource Planning
-* ESN Electronic Serial Number
-* ESP Encapsulated Security Payload
-* FACL File System Access Control List
-* FDE Full Disk Encryption
-* FRR False Rejection Rate
+* **DoS** Denial of Service
+* **DRP** Disaster Recovery Plan
+* **DSA** Digital Signature Algorithm
+* **DSL** Digital Subscriber Line
+* **DSU** Data Service Unit
+* **EAP** Extensible Authentication Protocol
+* **ECB** Electronic Code Book
+* **ECC** Elliptic Curve Cryptography
+* **ECDHE** Elliptic Curve Diffie-Hellman Ephemeral
+* **ECDSA** Elliptic Curve Digital Signature Algorithm
+* **EFS** Encrypted File System
+* **EMI** Electromagnetic Interference
+* **EMP** Electro Magnetic Pulse
+* **ERP** Enterprise Resource Planning
+* **ESN** Electronic Serial Number
+* **ESP** Encapsulated Security Payload
+* **FACL** File System Access Control List
+* **FDE** Full Disk Encryption
+* **FRR** False Rejection Rate
 * FTP File Transfer Protocol
 * FTPS Secured File Transfer Protocol
 * GCM Galois Counter Mode
