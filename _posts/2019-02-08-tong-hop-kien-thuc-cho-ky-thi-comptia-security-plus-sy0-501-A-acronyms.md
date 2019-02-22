@@ -96,110 +96,110 @@ securityplus: true
 * **FACL** File System Access Control List
 * **FDE** Full Disk Encryption
 * **FRR** False Rejection Rate
-* FTP File Transfer Protocol
-* FTPS Secured File Transfer Protocol
-* GCM Galois Counter Mode
-* GPG Gnu Privacy Guard
-* GPO Group Policy Object
-* GPS Global Positioning System
-* GPU Graphic Processing Unit
-* GRE Generic Routing Encapsulation
-* HA High Availability
-* HDD Hard Disk Drive
-* HIDS Host-based Intrusion Detection System
-* HIPS Host-based Intrusion Prevention System
-* HMAC Hashed Message Authentication Code
-* HOTP HMAC-based One-Time Password
-* HSM Hardware Security Module
-* HTML Hypertext Markup Language
-* HTTP Hypertext Transfer Protocol
-* HTTPS Hypertext Transfer Protocol over SSL/TLS
-* HVAC Heating, Ventilation and Air Conditioning
-* IaaS Infrastructure as a Service
-* ICMP Internet Control Message Protocol
-* ICS Industrial Control Systems
-* ID Identification
-* IDEA International Data Encryption Algorithm
-* IDF Intermediate Distribution Frame
-* IdP Identity Provider
-* IDS Intrusion Detection System
-* IEEE Institute of Electrical and Electronic Engineers
-* IKE Internet Key Exchange
-* IM Instant Messaging
-* IMAP4 Internet Message Access Protocol v4
-* IoT Internet of Things
-* IP Internet Protocol
-* IPSec Internet Protocol Security
-* IR Incident Response
-* IR Infrared
-* IRC Internet Relay Chat
-* IRP Incident Response Plan
-* ISA Interconnection Security Agreement
-* ISP Internet Service Provider
-* ISSO Information Systems Security Officer
-* ITCP IT Contingency Plan
-* IV Initialization Vector
-* KDC Key Distribution Center
-* KEK Key Encryption Key
-* L2TP Layer 2 Tunneling Protocol
-* LAN Local Area Network
-* LDAP Lightweight Directory Access Protocol
-* LEAP Lightweight Extensible Authentication Protocol
-* MaaS Monitoring as a Service
-* MAC Mandatory Access Control
-* MAC Media Access Control
-* MAC Message Authentication Code
-* MAN Metropolitan Area Network
-* MBR Master Boot Record
-* MD5 Message Digest 5
-* MDF Main Distribution Frame
-* MFD Multi-function Device
-* MITM Man-in-the-Middle
-* MMS Multimedia Message Service
-* MOA Memorandum of Agreement
-* MOU Memorandum of Understanding
-* MPLS Multi-protocol Label Switching
-* MSCHAP Microsoft Challenge Handshake Authentication Protocol
-* MSP Managed Service Provider
-* MTBF Mean Time Between Failures
-* MTTF Mean Time to Failure
-* MTTR Mean Time to Recover or Mean Time to Repair
-* MTU Maximum Transmission Unit
-* NAC Network Access Control
-* NAT Network Address Translation
-* NDA Non-disclosure Agreement
-* NFC Near Field Communication
-* NIDS Network-based Intrusion Detection System
-* NIPS Network-based Intrusion Prevention System
-* NIST National Institute of Standards & Technology
-* NTFS New Technology File System
-* NTLM New Technology LAN Manager
-* NTP Network Time Protocol
-* OAUTH Open Authorization
-* OCSP Online Certificate Status Protocol
-* OID Object Identifier
-* OS Operating System
-* OTA Over The Air
-* OVAL Open Vulnerability Assessment Language
-* P12 PKCS #12
-* P2P Peer to Peer
-* PaaS Platform as a Service
-* PAC Proxy Auto Configuration
-* PAM Pluggable Authentication Modules
-* PAP Password Authentication Protocol
-* PAT Port Address Translation
-* PBKDF2 Password-based Key Derivation Function 2
-* PBX Private Branch Exchange
-* PCAP Packet Capture
-* PEAP Protected Extensible Authentication Protocol
-* PED Personal Electronic Device
-* PEM Privacy-enhanced Electronic Mail
-* PFS Perfect Forward Secrecy
-* PFX Personal Exchange Format
-* PGP Pretty Good Privacy
-* PHI Personal Health Information
-* PII Personally Identifiable Information
-* PIV Personal Identity Verification
+* **FTP** File Transfer Protocol
+* **FTPS** Secured File Transfer Protocol
+* **GCM** Galois Counter Mode
+* **GPG** Gnu Privacy Guard
+* **GPO** Group Policy Object
+* **GPS** Global Positioning System
+* **GPU** Graphic Processing Unit
+* **GRE** Generic Routing Encapsulation
+* **HA** High Availability
+* **HDD** Hard Disk Drive
+* **HIDS** Host-based Intrusion Detection System
+* **HIPS** Host-based Intrusion Prevention System
+* **HMAC** Hashed Message Authentication Code
+* **HOTP** HMAC-based One-Time Password
+* **HSM** Hardware Security Module
+* **HTML** Hypertext Markup Language
+* **HTTP** Hypertext Transfer Protocol
+* **HTTPS** Hypertext Transfer Protocol over SSL/TLS
+* **HVAC** Heating, Ventilation and Air Conditioning
+* **IaaS** Infrastructure as a Service
+* **ICMP** Internet Control Message Protocol
+* **ICS** Industrial Control Systems
+* **ID** Identification
+* **IDEA** International Data Encryption Algorithm
+* **IDF** Intermediate Distribution Frame
+* **IdP** Identity Provider
+* **IDS** Intrusion Detection System
+* **IEEE** Institute of Electrical and Electronic Engineers
+* **IKE** Internet Key Exchange
+* **IM** Instant Messaging
+* **IMAP**4 Internet Message Access Protocol v4
+* **IoT** Internet of Things
+* **IP** Internet Protocol
+* **IPSec** Internet Protocol Security
+* **IR** Incident Response
+* **IR** Infrared
+* **IRC** Internet Relay Chat
+* **IRP** Incident Response Plan
+* **ISA** Interconnection Security Agreement
+* **ISP** Internet Service Provider
+* **ISSO** Information Systems Security Officer
+* **ITCP** IT Contingency Plan
+* **IV** Initialization Vector
+* **KDC** Key Distribution Center
+* **KEK** Key Encryption Key
+* **L**2TP Layer 2 Tunneling Protocol
+* **LAN** Local Area Network
+* **LDAP** Lightweight Directory Access Protocol
+* **LEAP** Lightweight Extensible Authentication Protocol
+* **MaaS** Monitoring as a Service
+* **MAC** Mandatory Access Control
+* **MAC** Media Access Control
+* **MAC** Message Authentication Code
+* **MAN** Metropolitan Area Network
+* **MBR** Master Boot Record
+* **MD**5 Message Digest 5
+* **MDF** Main Distribution Frame
+* **MFD** Multi-function Device
+* **MITM** Man-in-the-Middle
+* **MMS** Multimedia Message Service
+* **MOA** Memorandum of Agreement
+* **MOU** Memorandum of Understanding
+* **MPLS** Multi-protocol Label Switching
+* **MSCHAP** Microsoft Challenge Handshake Authentication Protocol
+* **MSP** Managed Service Provider
+* **MTBF** Mean Time Between Failures
+* **MTTF** Mean Time to Failure
+* **MTTR** Mean Time to Recover or Mean Time to Repair
+* **MTU** Maximum Transmission Unit
+* **NAC** Network Access Control
+* **NAT** Network Address Translation
+* **NDA** Non-disclosure Agreement
+* **NFC** Near Field Communication
+* **NIDS** Network-based Intrusion Detection System
+* **NIPS** Network-based Intrusion Prevention System
+* **NIST** National Institute of Standards & Technology
+* **NTFS** New Technology File System
+* **NTLM** New Technology LAN Manager
+* **NTP** Network Time Protocol
+* **OAUTH** Open Authorization
+* **OCSP** Online Certificate Status Protocol
+* **OID** Object Identifier
+* **OS** Operating System
+* **OTA** Over The Air
+* **OVAL** Open Vulnerability Assessment Language
+* **P**12 PKCS #12
+* **P**2P Peer to Peer
+* **PaaS** Platform as a Service
+* **PAC** Proxy Auto Configuration
+* **PAM** Pluggable Authentication Modules
+* **PAP** Password Authentication Protocol
+* **PAT** Port Address Translation
+* **PBKDF**2 Password-based Key Derivation Function 2
+* **PBX** Private Branch Exchange
+* **PCAP** Packet Capture
+* **PEAP** Protected Extensible Authentication Protocol
+* **PED** Personal Electronic Device
+* **PEM** Privacy-enhanced Electronic Mail
+* **PFS** Perfect Forward Secrecy
+* **PFX** Personal Exchange Format
+* **PGP** Pretty Good Privacy
+* **PHI** Personal Health Information
+* **PII** Personally Identifiable Information
+* **PIV** Personal Identity Verification
 * **PKI** Public Key Infrastructure
 * **POP** Post Office Protocol
 * **POTS** Plain Old Telephone Service
@@ -268,38 +268,38 @@ securityplus: true
 * **TKIP** Temporal Key Integrity Protocol
 * **TLS** Transport Layer Security
 * **TOTP** Time-based One-time Password
-* **TPM** Trusted Platform Module
-* **TSIG** Transaction Signature
-* **UAT** User Acceptance Testing
-* **UAV** Unmanned Aerial Vehicle
-* **UDP** User Datagram Protocol
-* **UEFI** Unified Extensible Firmware Interface
-* **UPS** Uninterruptable Power Supply
-* **URI** Uniform Resource Identifier
-* **URL** Universal Resource Locator
-* **USB**     Universal Serial Bus
-* **USB** OTG USB On The Go
-* **UTM**     Unified Threat Management
-* **UTP**     Unshielded Twisted Pair
-* **VDE**     Virtual Desktop Environment
-* **VDI** Virtual Desktop Infrastructure
-* **VLAN** Virtual Local Area Network
-* **VLSM** Variable Length Subnet Masking
-* **VM** Virtual Machine
-* **VoIP** Voice over IP
-* **VPN** Virtual Private Network
-* **VTC** Video Teleconferencing
-* **WAF** Web Application Firewall
-* **WAP** Wireless Access Point
-* **WEP** Wired Equivalent Privacy
-* **WIDS** Wireless Intrusion Detection System
-* **WIPS** Wireless Intrusion Prevention System
-* **WORM** Write Once Read Many
-* **WPA** WiFi Protected Access
-* **WPA2** WiFi Protected Access 2
-* **WPS** WiFi Protected Setup
-* **WTLS**    Wireless TLS
-* **XML**     Extensible Markup Language
-* **XOR**     Exclusive Or
-* **XSRF**    Cross-site Request Forgery
-* **XSS**     Cross-site Scriptin
+* **TPM**       Trusted Platform Module
+* **TSIG**      Transaction Signature
+* **UAT**       User Acceptance Testing
+* **UAV**       Unmanned Aerial Vehicle
+* **UDP**       User Datagram Protocol
+* **UEFI**      Unified Extensible Firmware Interface
+* **UPS**       Uninterruptable Power Supply
+* **URI**       Uniform Resource Identifier
+* **URL**       Universal Resource Locator
+* **USB**       Universal Serial Bus
+* **USB**       OTG USB On The Go
+* **UTM**       Unified Threat Management
+* **UTP**       Unshielded Twisted Pair
+* **VDE**       Virtual Desktop Environment
+* **VDI**       Virtual Desktop Infrastructure
+* **VLAN**      Virtual Local Area Network
+* **VLSM**      Variable Length Subnet Masking
+* **VM**        Virtual Machine
+* **VoIP**      Voice over IP
+* **VPN**       Virtual Private Network
+* **VTC**       Video Teleconferencing
+* **WAF**       Web Application Firewall
+* **WAP**       Wireless Access Point
+* **WEP**       Wired Equivalent Privacy
+* **WIDS**      Wireless Intrusion Detection System
+* **WIPS**      Wireless Intrusion Prevention System
+* **WORM**      Write Once Read Many
+* **WPA**       WiFi Protected Access
+* **WPA2**      WiFi Protected Access 2
+* **WPS**       WiFi Protected Setup
+* **WTLS**      Wireless TLS
+* **XML**       Extensible Markup Language
+* **XOR**       Exclusive Or
+* **XSRF**      Cross-site Request Forgery
+* **XSS**       Cross-site Scriptin

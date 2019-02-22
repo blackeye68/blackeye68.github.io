@@ -46,7 +46,7 @@ securityplus: true
 | 23 TCP/UDP | Telnet | Unencrypted method to remotely administer network devices (should not be used) |
 | 25 TCP | SMTP | Simple Mail Transfer Protocol is used to send email over the Internet |
 | 53 TCP/UDP | DNS | Domain Name Service is used to resolve hostnames to IPs and IPs to hostnames |
-| 21 TCP | FTP | File Transfer Protocol is used to transfer files from host to host |
+| 69 UDP | TFTP | Trivial FTP is used as a simplified version of FTP to put a file on a remote host, or get a file from a remote host |
 | 21 TCP | FTP | File Transfer Protocol is used to transfer files from host to host |
 | ------ | --- | ------------------------------------------------------------------ |
 | 21 TCP | FTP | File Transfer Protocol is used to transfer files from host to host |
@@ -55,12 +55,7 @@ securityplus: true
 | 6514 TCP | Syslog over TLS | It is used to conduct computer message logging, especially for routers and firewall logs, over
 a TLS-encrypted connection |
    
-  
-  
-  
-  
-69 UDP TFTP Trivial FTP is used as a simplified version of FTP to put a file on a remote host, or get a file
-from a remote host
+
 80 TCP HTTP Hyper Text Transfer Protocol is used to transmit web page data to a client for unsecured web
 browsing
 88 TCP/UDP Kerberos Used for network authentication using a system of tickets within a Windows domain
