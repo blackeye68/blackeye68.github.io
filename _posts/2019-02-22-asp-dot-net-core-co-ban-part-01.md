@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "ASP.NET Core cơ bản - Phần 01: ASP.NET Core Overview"
+title:  "ASP.NET Core cơ bản - Phần 01: ASP.NET Core Overview - Tổng quan về ASP.NET Core"
 author: blackeye
 categories: [ .net-core, co-ban, khai-niem ]
 image: assets/images/6.jpg
