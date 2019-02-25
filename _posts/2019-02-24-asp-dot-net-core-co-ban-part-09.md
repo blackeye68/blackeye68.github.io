@@ -17,4 +17,8 @@ dotnet: true
 - Recommendations
 
 ## What is Dependency Injection?
-- Dependency injection (DI) is a technique for achieving 
+- Dependency injection (DI) is a technique for achieving loose coupling between objects and their collaborators, or dependencies.
+- This follows the ``Dependency Inversion Principle``, which states that "high level modules should not depend on low level modules; both should depend on abstractions."
+- Extracting dependencies into interfaces and providing implementations of these interfaces as parameters is also an example of the ```Strategy design pattern```.
+
+## 

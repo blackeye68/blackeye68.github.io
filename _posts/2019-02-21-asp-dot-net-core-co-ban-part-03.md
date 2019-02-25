@@ -73,13 +73,13 @@ dotnet: true
 
 Dependency hay dependent nghĩa là phụ thuộc vào hỗ trợ của một cái gì, việc gì đó. Ví dụ như nếu chúng ta phụ thuộc quá nhiều vào smartphone, thì có thể hiểu là chúng ta đã dependent lên smartphone.
 
-Trước khi nói về dependency injection, hãy hiểu xem dependency trong lập trình nghĩa là gì trc'.
+Trước khi nói về dependency injection, hãy hiểu xem dependency trong lập trình nghĩa là gì trước.
 
 Khi mà class A sử dụng một số chức năng của class class B, thì có thể nói là class A có quan hệ phụ thuộc với class B.
 
     ![]({{site.baseurl}}/assets/images/di/....jpg)
 
-Trong java, trc' khi ta có thể sử dụng method của class khác, ta phải khởi tạo một object của class đấy (hay A cần phải tạo 1 thực thể của B).
+Trong java, trước khi ta có thể sử dụng method của class khác, ta phải khởi tạo một object của class đấy (hay A cần phải tạo 1 thực thể của B).
 
 Vậy ta có thể hiểu, việc chuyển giao nhiệm vụ khởi tạo object đó cho một ai khác và trực tiếp sử dụng các dependency đó được gọi là dependency injection. 
 
@@ -97,7 +97,7 @@ Ví dụ chúng ta có một class Car, trong đó có chứa một vài object 
 
 Ở đây, class Car chịu trách nhiệm khởi tạo tất cả các dependency object. Nhưng chuyện gì sẽ xảy ra nếu chúng ta muốn bỏ MRFWheel và thay thế bằng YokohamaWheel.
 
-Chúng ta sẽ cần tạo một class Car mới với YokohamaWheel, tuy nhiên khi sử dụng dependency injection, chúng ta có thể đổi Wheel ở runtime vì dependency có thể đc đẩy vào (inject) ở runtime thay vì complile time.
+Chúng ta sẽ cần tạo một class Car mới với YokohamaWheel, tuy nhiên khi sử dụng dependency injection, chúng ta có thể đổi Wheel ở runtime vì dependency có thể được đẩy vào (inject) ở runtime thay vì complile time.
 
 Bạn có thể hiểu là dependency injection là một người trung gian chịu trách nhiệm tạo ra các loại wheel khác nhau, rồi cung cấp chúng cho class Car. Việc đó làm cho class Car ko phải phụ thuộc vào Wheel cụ thể nào hay Battery cụ thể nào nữa.
 
@@ -106,29 +106,29 @@ Bạn có thể hiểu là dependency injection là một người trung gian ch
 * **Setter injection**: client tạo ra một setter method để các class khác có thể sử dụng chúng để cấp dependency.
 * **Interface injection**: dependency sẽ cung cấp một hàm injector để inject nó vào bất kì client nào đc truyền vào. Các client phải implement một interface mà có một setter method dành cho việc nhận dependency.
 
-    class Car{
-    private Wheels wheel;
-    private Battery battery;
-    
-    /*Ở đâu đó trong project, ta khởi tạo những objects mà đc yêu cầu bởi class này
-        Có 2 cách để implement dependency injection
-        1. Dựa vào constructor
-        2. Dựa vào Setter method
-    */
-    
-    // Dựa vào constructor
-    Car(Wheel wh, Battery bt) {
-        this.wh = wh;
-        this.bt = bt;
-    }
-    
-    // Dựa vào Setter method
-    void setWheel(Batter bt){
-        this.bt = bt;
-    }
-    ...  
-    ...
-    }
+        class Car{
+        private Wheels wheel;
+        private Battery battery;
+
+        /*Ở đâu đó trong project, ta khởi tạo những objects mà đc yêu cầu bởi class này
+            Có 2 cách để implement dependency injection
+            1. Dựa vào constructor
+            2. Dựa vào Setter method
+        */
+
+        // Dựa vào constructor
+        Car(Wheel wh, Battery bt) {
+            this.wh = wh;
+            this.bt = bt;
+        }
+
+        // Dựa vào Setter method
+        void setWheel(Batter bt){
+            this.bt = bt;
+        }
+        ...  
+        ...
+        }
 
 Vậy trách nhiệm của dependency injection là:
 - Tạo ra các object.
