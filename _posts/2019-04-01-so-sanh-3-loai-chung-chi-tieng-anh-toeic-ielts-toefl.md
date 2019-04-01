@@ -77,16 +77,16 @@ Những khác biệt cơ bản giữa các chứng chỉ
 * Trong khi đó, bài thi TOEIC được thiết kế để đánh giá trình độ sử dụng tiếng Anh giao tiếp nơi công sở (workplace English proficiency). Bài thi dành cho những nhân viên đến từ nhiều cấp bậc, vị trí khác nhau của công ty và yêu cầu về khả năng Anh ngữ của họ cũng khác nhau. Hầu hết các bài thi đều đưa ra những tình huống thực tế trong công việc, vì thế nó có khả năng đo lường trình độ Anh ngữ của người thi từ thấp nhất đến cao nhất mà không bắt buộc người thi phải có trình độ Anh ngữ quá cao.
 
 
-|         |  **TOEIC** | **TOEFL iBT** | **IELTS** |
-|---------|----------|---------|---------|
-| _**Tác giả**_ | Viện khảo thí Hoa Kỳ | Viện khảo thí Hoa Kỳ | Hội đồng Anh, IDP Úc |
-| _**Số câu hỏi**_ | 200 câu | 70 – 121 câu (chưa kể yêu cầu của phần Nói và Viết) | 80 câu (chưa kể yêu cầu của phần Nói và Viết) |
-| _**Thời gian kiểm tra**_ | 2 giờ | 200 ph – 270 ph | 2g45ph |
-| _**Thang điểm**_ | 10 – 990 | 0 – 120 | 0 – 9 |
-| _**Hình thức làm bài**_ | Trên giấy | Trên máy vi tính | Trên giấy |
-| _**Kỹ năng đánh giá**_ | Nghe, đọc hiểu | Nghe, nói, đọc, viết| Nghe, nói, đọc, viết |
-| _**Trình độ tối thiểu**_ | Tiền trung cấp (pre-intermediate) | Trung cấp (intermediate) | Trung cấp (intermediate) |
-| _**Mục đích đánh giá tiếng Anh**_ | Giao tiếp công sở | Học thuật, hàn lâm | Học thuật, hàn lâm |
+|                                   | **TOEIC**                         | **TOEFL iBT**                                       | **IELTS**                                     |
+|-----------------------------------|-----------------------------------|-----------------------------------------------------|-----------------------------------------------|
+| _**Tác giả**_                     | Viện khảo thí Hoa Kỳ              | Viện khảo thí Hoa Kỳ                                | Hội đồng Anh, IDP Úc                          |
+| _**Số câu hỏi**_                  | 200 câu                           | 70 – 121 câu (chưa kể yêu cầu của phần Nói và Viết) | 80 câu (chưa kể yêu cầu của phần Nói và Viết) |
+| _**Thời gian kiểm tra**_          | 2 giờ                             | 200 ph – 270 ph                                     | 2g45ph                                        |
+| _**Thang điểm**_                  | 10 – 990                          | 0 – 120                                             | 0 – 9                                         |
+| _**Hình thức làm bài**_           | Trên giấy                         | Trên máy vi tính                                    | Trên giấy                                     |
+| _**Kỹ năng đánh giá**_            | Nghe, đọc hiểu                    | Nghe, nói, đọc, viết                                | Nghe, nói, đọc, viết                          |
+| _**Trình độ tối thiểu**_          | Tiền trung cấp (pre-intermediate) | Trung cấp (intermediate)                            | Trung cấp (intermediate)                      |
+| _**Mục đích đánh giá tiếng Anh**_ | Giao tiếp công sở                 | Học thuật, hàn lâm                                  | Học thuật, hàn lâm                            |
 
 ## BẢNG QUY ĐỔI ĐIỂM 3 CHỨNG CHỈ QUỐC TẾ - TOEIC, TOEFL VÀ IELTS
 
