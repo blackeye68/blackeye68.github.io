@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Learn English: TOEIC All Posts
+title: CompTIA Security+ All Posts
 comments: false
 ---
 
@@ -23,13 +23,12 @@ comments: false
             </div>
 
             <div class="row listfeaturedtag">
-                <p>Tập hợp tất cả các bài post về kiến thức về học tiếng Anh và kỳ thi TOEIC</p>
 
                 {% for post in site.posts %}
 
-                {% if post.toeic == true %}
+                {% if post.securityplus == true %}
 
-                {% include englishtoeicbox.html %}
+                {% include securityplusbox.html %}
 
                 {% endif %}
 
