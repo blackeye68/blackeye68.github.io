@@ -23,12 +23,14 @@
 				//Apply right or wrong class to p and span.
 				var applyclass = "wrong"
 				var spancolor = "red"
-				audioElement.setAttribute('src', "https://alansimpson.me/pages/pubdomain/soundfx/wrongbuzz.mp3");
+				// audioElement.setAttribute('src', "https://alansimpson.me/pages/pubdomain/soundfx/wrongbuzz.mp3");
+                audioElement.setAttribute('src', "assets/audios/wrongbuzz.mp3");
 				var sound = "wrongsound"
 				if ($(this).hasClass("correct")) {
 					applyclass = "right";
 					spancolor = "green";
-					audioElement.setAttribute('src', "https://alansimpson.me/pages/pubdomain/soundfx/rightsound.mp3");
+					// audioElement.setAttribute('src', "https://alansimpson.me/pages/pubdomain/soundfx/rightsound.mp3");
+                    audioElement.setAttribute('src', "assets/audios/rightsound.mp3");
 				}
 				audioElement.play();
 				$(this).addClass(applyclass);
@@ -120,9 +122,5 @@
 			<p class="ans">e) String Collection.<span>Incorrect !</span></p>
 		</div>
 	</div>
-	<!-- Images -->
-	<p style="margin:3em;text-align:center;">Here are the two images I used. They're public domain, so feel free to download.<br><br>
-	<img src="assets/images/quiz/greencheck.png" alt="Green checkmark">&nbsp;&nbsp;<img src="assets/images/quiz/redx.png" alt="Red X">
-	</p>
 </body>
 </html>
