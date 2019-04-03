@@ -1,8 +1,8 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html itemscope itemtype="http://schema.org/Article">
 
 <head prefix="og: http://ogp.me/ns#">
-    <title>Quiz C# Language</title>
+    <title>HTML Play Sound on Mouse Click</title>
     <meta charset="UTF-8">
     <meta name="author" content="Alan Simpson" />
     <meta http-equiv="cleartype" content="on">
@@ -13,6 +13,7 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script>
 		$(document).ready(function () {
+
 			$("p.ans").click(function () {
 				var audioElement = document.createElement('audio');
 				//Get the id of the div
@@ -42,6 +43,7 @@
 			font-family: Verdana, Geneva, Tahoma, sans-serif;
 			font-size: 14pt;
 		}
+
 		#wrapper {
 			width: 80%;
 			padding: 1%;
@@ -52,10 +54,12 @@
 		.question p:first-child {
 			font-weight: bold;
 		}
+
 		/* Each possible answer */
 		.ans {
 			margin-left: 10px;
 		}
+
 		/* Correct answer */
 		.right {
 			display: block;
@@ -64,6 +68,7 @@
 			padding: 10px;
 			padding-left: 60px;
 		}
+
 		/* Incorrect answer */
 		.wrong {
 			display: block;
@@ -72,12 +77,14 @@
 			padding: 10px;
 			padding-left: 60px;
 		}
+
 		/* Answer feedback */
 		.ans span {
 			display: none;
 			margin-left: 20px;
 			padding-top: 0.5em;
 		}
+
 		/* Take hidden feedback out of hiding when applied */
 		.show {
 			display: block;
@@ -86,6 +93,10 @@
 </head>
 
 <body>
+    <?php
+$IPATH = $_SERVER["DOCUMENT_ROOT"]."/pages/cq/";
+include($IPATH."cqheader.php");
+?>
 	<div id="wrapper">
        		<h1>Obnoxious Interactive Quiz</h1>
 	<p>Here is the obnoxious version of the interactive quiz. Many people will find the included sound effects to be obnoxious and may lecture you on how terrible it is to put sound in web pages. So don't use this one unless you know your audience and they have some sense of humor. If in doubt, use the silent version <a href="../quiz">here</a>.</p>
@@ -113,4 +124,9 @@
 	<img src="greencheck.png" alt="Green checkmark">&nbsp;&nbsp;<img src="redx.png" alt="Red X">
 	</p>
 </body>
+<?php
+$RPATH = $_SERVER["DOCUMENT_ROOT"]."/includes/";
+include($RPATH."analyticstracking.php");
+?>
+
 </html>
