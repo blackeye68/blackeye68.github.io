@@ -1,9 +1,125 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title></title>
-    </head>
-    <body>
-        
-    </body>
+<html itemscope itemtype="http://schema.org/Article">
+
+<head prefix="og: http://ogp.me/ns#">
+    <title>HTML Play Sound on Mouse Click</title>
+    <meta charset="UTF-8">
+    <meta name="author" content="Alan Simpson" />
+    <meta http-equiv="cleartype" content="on">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../cqstyles.css" rel="stylesheet" />
+    <!-- Get jQuery library from Google cdn -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script>
+		$(document).ready(function () {
+			$("p.ans").click(function () {
+				var audioElement = document.createElement('audio');
+				//Get the id of the div
+				var qnum = "#" + $(this).parent().attr("id");
+				//Clear previous freeback:
+				$(qnum + " p.ans").removeClass("right wrong");
+				$(qnum + " p span").css("display", "none");
+				//Apply right or wrong class to p and span.
+				var applyclass = "wrong"
+				var spancolor = "red"
+				audioElement.setAttribute('src', "https://alansimpson.me/pages/pubdomain/soundfx/wrongbuzz.mp3");
+				var sound = "wrongsound"
+				if ($(this).hasClass("correct")) {
+					applyclass = "right";
+					spancolor = "green";
+					audioElement.setAttribute('src', "https://alansimpson.me/pages/pubdomain/soundfx/rightsound.mp3");
+				}
+				audioElement.play();
+				$(this).addClass(applyclass);
+				$(this).children(":first").css("display", "block").css("color", spancolor);
+			})
+		});
+	</script>
+    <script type="text/javascript" src="//platform-api.sharethis.com/js/sharethis.js#property=58b099d824bd8000128d526b&product=sticky-share-buttons"></script>
+    <style>
+		body {
+			font-family: Verdana, Geneva, Tahoma, sans-serif;
+			font-size: 14pt;
+		}
+		#wrapper {
+			width: 80%;
+			padding: 1%;
+			margin: 1em auto;
+			border: solid 1px silver;
+		}
+		/* Text of the questions */
+		.question p:first-child {
+			font-weight: bold;
+		}
+		/* Each possible answer */
+		.ans {
+			margin-left: 10px;
+		}
+		/* Correct answer */
+		.right {
+			display: block;
+			border: solid 1px green;
+			background: url("greencheck.png") no-repeat 10px;
+			padding: 10px;
+			padding-left: 60px;
+		}
+		/* Incorrect answer */
+		.wrong {
+			display: block;
+			border: solid 1px red;
+			background: url("redx.png") no-repeat 10px;
+			padding: 10px;
+			padding-left: 60px;
+		}
+		/* Answer feedback */
+		.ans span {
+			display: none;
+			margin-left: 20px;
+			padding-top: 0.5em;
+		}
+		/* Take hidden feedback out of hiding when applied */
+		.show {
+			display: block;
+		}
+	</style>
+</head>
+
+<body>
+    <?php
+$IPATH = $_SERVER["DOCUMENT_ROOT"]."/pages/cq/";
+include($IPATH."cqheader.php");
+?>
+	<div id="wrapper">
+       		<h1>Obnoxious Interactive Quiz</h1>
+	<p>Here is the obnoxious version of the interactive quiz. Many people will find the included sound effects to be obnoxious and may lecture you on how terrible it is to put sound in web pages. So don't use this one unless you know your audience and they have some sense of humor. If in doubt, use the silent version <a href="../quiz">here</a>.</p>
+
+		<!-- Each question should be in its own div with a unique ID like q1, q2, and so forth -->
+		<!-- Each optional answer has a class of "ans" and the correct answer (only) has an additional class of "correct" -->
+		<!-- Use p tags the question and for each answer -->
+		<div class="question" id="q1">
+			<p>1. Which of the following is a primary color when working with light (rather than inks)?</p>
+			<p class="ans correct">a) Red<span>Correct, in light we use RGB (Red, Green, Blue)</span></p>
+			<p class="ans">b) Orange<span>That's not a primary color for ink or light.</span></p>
+			<p class="ans">c) Yellow<span>That's a primary color for inks, but not for light</span></p>
+			<p class="ans">d) Purple<span>That's not a primary color for ink or light.</span></p>
+		</div>
+		<div class="question" id="q2">
+			<p>2. Which of the following is a JavaScript library?</p>
+			<p class="ans ">a) CSS<span>CSS is a language, not a JavaScript library.</span></p>
+			<p class="ans">b) HTML<span>HTML is a markup language, not a JavaScript library</span></p>
+			<p class="ans correct">c) jQuery<span>Correct-a-mundo, jQuery is a wildly popular JavaScript library.</span></p>
+			<p class="ans">d) Python<span>Python is a programming language, or large snake, but not a JavaScript library.</span></p>
+		</div>
+	</div>
+	<!-- Images -->
+	<p style="margin:3em;text-align:center;">Here are the two images I used. They're public domain, so feel free to download.<br><br>
+	<img src="greencheck.png" alt="Green checkmark">&nbsp;&nbsp;<img src="redx.png" alt="Red X">
+	</p>
+</body>
+<?php
+$RPATH = $_SERVER["DOCUMENT_ROOT"]."/includes/";
+include($RPATH."analyticstracking.php");
+?>
+
 </html>
