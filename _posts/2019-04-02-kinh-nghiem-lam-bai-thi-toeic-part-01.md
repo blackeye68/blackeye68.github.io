@@ -21,7 +21,7 @@ toeic: true
 - **Hướng dẫn: Với mỗi câu hỏi trong phần này, bạn sẽ nghe bốn câu mô tả về một tấm ảnh mà đề thi giới thiệu. Khi nghe các câu này, bạn phải chọn câu mô tả đúng nhất những gì bạn thấy trong ảnh. Các câu này không được in trong đề thi, và chỉ được đọc một lần.**
 - Example:
 
-![]({{sitebase.url}}/assets/images/toeic/example-toeic1.png)
+[]({{sitebase.url}}/assets/images/toeic/example-toeic1.png)
 
 Câu (B), "The woman is typing on a computer", mô tả đúng nhất những gì bạn thấy trong ảnh. Vì vậy bạn nên chọn trả lời (B)
 #### Mẹo làm bài
